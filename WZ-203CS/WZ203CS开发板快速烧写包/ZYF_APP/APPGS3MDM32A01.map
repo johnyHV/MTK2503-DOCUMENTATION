@@ -1,0 +1,3673 @@
+Archive member included because of file (symbol)
+
+libs/gcc/app_start.lib(adc.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o (Ql_ADC_Register)
+libs/gcc/app_start.lib(fileSys.o)
+                              build\gcc\obj/custom/fota/src/fota_ftp.o (Ql_FS_Open)
+libs/gcc/app_start.lib(fota.o)
+                              build\gcc\obj/custom/fota/src/fota_main.o (Ql_FOTA_Init)
+libs/gcc/app_start.lib(gpio.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o (Ql_GPIO_Init)
+libs/gcc/app_start.lib(gprs.o)
+                              build\gcc\obj/custom/fota/src/fota_main.o (Ql_GPRS_GetPDPContextId)
+libs/gcc/app_start.lib(iic.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o (Ql_IIC_Init)
+libs/gcc/app_start.lib(lib_ril_sms.o)
+                              build\gcc\obj/ril/src/ril_sms.o (LIB_SMS_IsValidHexStr)
+libs/gcc/app_start.lib(memory.o)
+                              build\gcc\obj/ril/src/ril_bluetooth.o (Ql_MEM_Alloc)
+libs/gcc/app_start.lib(pwm.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o (Ql_PWM_Init)
+libs/gcc/app_start.lib(ql_func.o)
+                              libs/gcc/app_start.lib(memory.o) (api_notsup)
+libs/gcc/app_start.lib(ql_main.o)
+                              build\gcc\obj/ril/src/ril_bluetooth.o (Ql_Debug_Trace)
+libs/gcc/app_start.lib(ril_aux.o)
+                              build\gcc\obj/custom/config/sys_config.o (proc_reserved2)
+libs/gcc/app_start.lib(ril_main.o)
+                              build\gcc\obj/custom/config/sys_config.o (proc_reserved1)
+libs/gcc/app_start.lib(stdlib_func.o)
+                              build\gcc\obj/ril/src/Ril_dtmf.o (Ql_atof)
+libs/gcc/app_start.lib(system.o)
+                              build\gcc\obj/ril/src/ril_ftp.o (Ql_Sleep)
+libs/gcc/app_start.lib(taskMngt.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/main.o (Ql_OS_GetMessage)
+libs/gcc/app_start.lib(time.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o (Ql_SetLocalTime)
+libs/gcc/app_start.lib(timer.o)
+                              libs/gcc/app_start.lib(ril_main.o) (Ql_Timer_Register)
+libs/gcc/app_start.lib(uart.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o (Ql_UART_Register)
+libs/gcc/app_start.lib(ocpu_init.o)
+                              libs/gcc/app_start.lib(ql_main.o) (_OCPU_InitUserMem)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy.o)
+                              build\gcc\obj/ril/src/ril_alarm.o (memcpy)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+                              build\gcc\obj/ril/src/ril_alarm.o (memset)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strchr.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o (strchr)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strcpy.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o (strcpy)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o (strlen)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o (strstr)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o (strtol)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+                              E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o) (__ctype_ptr__)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                              E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o) (_impure_ptr)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr.o)
+                              E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o) (memchr)
+E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcmp.o)
+                              E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o) (memcmp)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_udivsi3.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o (__aeabi_uidiv)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_divsi3.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o (__aeabi_idiv)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_dvmd_tls.o)
+                              E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubdf3.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o (__aeabi_dadd)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivdf3.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o (__aeabi_dmul)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixdfsi.o)
+                              build\gcc\obj/ril/src/Ril_dtmf.o (__aeabi_d2iz)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunsdfsi.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o (__aeabi_d2uiz)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_truncdfsf2.o)
+                              build\gcc\obj/ril/src/ril_location.o (__aeabi_d2f)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubsf3.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o (__aeabi_ui2f)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivsf3.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o (__aeabi_fmul)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixsfsi.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o (__aeabi_f2iz)
+E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunssfsi.o)
+                              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o (__aeabi_f2uiz)
+
+Allocating common symbols
+Common symbol       size              file
+
+Angle               0xc               build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+Ql_snprintf         0x4               libs/gcc/app_start.lib(ql_main.o)
+AngularVelocity     0xc               build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+Ql_sprintf          0x4               libs/gcc/app_start.lib(ql_main.o)
+Position            0x8               build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+Ql_Debug_Trace      0x4               libs/gcc/app_start.lib(ql_main.o)
+SecureDataStringLen
+                    0x4               build\gcc\obj/ril/src/ril_system.o
+u4OverflowPkt       0x4               build\gcc\obj/example/nema_pro.o
+mycoredata          0x30              build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+Ql_vsprintf         0x4               libs/gcc/app_start.lib(ql_main.o)
+PROBUF              0xff              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+Ql_sscanf           0x4               libs/gcc/app_start.lib(ql_main.o)
+ostimebuf           0x1e              build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+rx_state            0x1               build\gcc\obj/example/nema_pro.o
+NetworkTime         0x4               build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+g_comingCall        0x124             build\gcc\obj/ril/src/ril_telephony.o
+my_core_data        0x32              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+Fota_gprsCfg        0xb0              build\gcc\obj/custom/fota/src/fota_main.o
+gpsx                0x28              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+Pro                 0x24              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+Wdbuf               0x14              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+DataEnd             0x3               build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+Acceleration        0xc               build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+FotaConfig          0x10              build\gcc\obj/custom/fota/src/fota_main.o
+fotainfo            0x64              build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ReCenterTlV         0x18              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+Tetsbuf             0x32              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+id_que              0x600             build\gcc\obj/example/nema_pro.o
+Btmanager           0x4               build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+Jdbuf               0x14              build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+CenterIDTlV         0x18              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+g_asConSMSBuf       0x119a            build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+u4PktInQueue        0x4               build\gcc\obj/example/nema_pro.o
+Send_packets        0x1a              build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+time                0x1c              build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ProNumberInstruct   0xfa              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+id_que_tail         0x2               build\gcc\obj/example/nema_pro.o
+DataStrat           0x3               build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+systemset           0x198             build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+id_que_head         0x2               build\gcc\obj/example/nema_pro.o
+ProSeNum            0x3b              build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+calendar            0x6               build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+systimes            0xc               build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+rx_que              0x8000            build\gcc\obj/example/nema_pro.o
+Tem                 0x4               build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+rd_buf              0x100             build\gcc\obj/example/nema_pro.o
+GpsPositioningTime  0x4               build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+rx_que_head         0x2               build\gcc\obj/example/nema_pro.o
+u4SyncPkt           0x4               build\gcc\obj/example/nema_pro.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build\gcc\obj/custom/config/custom_sys_cfg.o
+ .data          0x00000000        0x0 build\gcc\obj/custom/config/custom_sys_cfg.o
+ .bss           0x00000000        0x0 build\gcc\obj/custom/config/custom_sys_cfg.o
+ .text          0x00000000        0x0 build\gcc\obj/custom/config/sys_config.o
+ .data          0x00000000        0x0 build\gcc\obj/custom/config/sys_config.o
+ .bss           0x00000000        0x0 build\gcc\obj/custom/config/sys_config.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_alarm.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_alarm.o
+ .bss           0x00000000        0x0 build\gcc\obj/ril/src/ril_alarm.o
+ .text.ATResponse_QALARM_Handler
+                0x00000000      0x304 build\gcc\obj/ril/src/ril_alarm.o
+ .text.RIL_Alarm_Create
+                0x00000000      0x104 build\gcc\obj/ril/src/ril_alarm.o
+ .text.RIL_Alarm_Query
+                0x00000000       0x74 build\gcc\obj/ril/src/ril_alarm.o
+ .text.RIL_Alarm_Remove
+                0x00000000      0x108 build\gcc\obj/ril/src/ril_alarm.o
+ .rodata        0x00000000       0x4c build\gcc\obj/ril/src/ril_alarm.o
+ .rodata.str1.1
+                0x00000000       0x7f build\gcc\obj/ril/src/ril_alarm.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_alarm.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/ril/src/ril_alarm.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_atResponse.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_atResponse.o
+ .text.Ql_RIL_AT_GetErrCode
+                0x00000000       0x10 build\gcc\obj/ril/src/ril_atResponse.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_audio.o
+ .data          0x00000000        0x1 build\gcc\obj/ril/src/ril_audio.o
+ .text.ATResponse_AUD_handler
+                0x00000000      0x2c8 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_GetChannel
+                0x00000000       0x80 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_SetChannel
+                0x00000000       0x7c build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_SetVolume
+                0x00000000       0xf0 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_GetVolume
+                0x00000000       0xec build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_PlayFile
+                0x00000000       0xe4 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_StopPlay
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_StartRecord
+                0x00000000       0xd8 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_StopRecord
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_PlayMem
+                0x00000000       0x94 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_StopPlayMem
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_PlayMemBg
+                0x00000000       0x8c build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_StopPlayMemBg
+                0x00000000       0x68 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_GetRecordState
+                0x00000000       0x90 build\gcc\obj/ril/src/ril_audio.o
+ .text.RIL_AUD_RegisterPlayCB
+                0x00000000       0x1c build\gcc\obj/ril/src/ril_audio.o
+ .rodata.str1.1
+                0x00000000      0x165 build\gcc\obj/ril/src/ril_audio.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_ble.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTLEADDR_Hdlr
+                0x00000000       0xa8 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QGatSetadv_Hdlr
+                0x00000000       0xe4 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatsl_Hdlr
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatsrsp_Hdlr
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatsind_Hdlr
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatsst_Hdlr
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatsd_Hdlr
+                0x00000000       0xf8 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatsc_Hdlr
+                0x00000000       0xdc build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatss_Hdlr
+                0x00000000      0x100 build\gcc\obj/ril/src/ril_ble.o
+ .text.ATRsp_QBTGatsreg_Hdlr
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BLE_Initialize
+                0x00000000       0x1c build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatsreg
+                0x00000000       0xa8 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatss
+                0x00000000      0x180 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatsc
+                0x00000000      0x114 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatsd
+                0x00000000      0x138 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatsst
+                0x00000000      0x158 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatsind
+                0x00000000       0xac build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatsrsp
+                0x00000000       0xb4 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatsl
+                0x00000000       0xa8 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_SetLeTxPwr
+                0x00000000       0x90 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_QBTFMPsreg
+                0x00000000       0x88 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_QBTPXPsreg
+                0x00000000       0x88 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_QBTGatadv
+                0x00000000       0x84 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_QGatSetadv
+                0x00000000       0xac build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_Gatcpu
+                0x00000000       0x98 build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_QGatsdisc
+                0x00000000       0x7c build\gcc\obj/ril/src/ril_ble.o
+ .text.RIL_BT_GetLeLocalAddr
+                0x00000000       0xf0 build\gcc\obj/ril/src/ril_ble.o
+ .rodata        0x00000000        0xf build\gcc\obj/ril/src/ril_ble.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.ATRsp_QBTSPPREAD_Hdlr
+                0x00000000      0x118 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.AtRsp_QBTCONND_Hdlr
+                0x00000000       0x24 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.ATRsp_QBTGPROF_Hdlr
+                0x00000000       0xdc build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.ATRsp_QBTVISB_Hdlr
+                0x00000000       0xbc build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.ATRsp_QBTADDR_Hdlr
+                0x00000000       0xbc build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.ATRsp_QBTNAME_Hdlr
+                0x00000000       0xbc build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.ATRsp_QBTPWR_Hdlr
+                0x00000000       0xbc build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.ATRsp_QBTSPPSEND_Hdlr
+                0x00000000       0xc8 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.BT_DevMngmt_Clean
+                0x00000000       0x3c build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.BT_DevMngmt_GetDeviceId
+                0x00000000       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.BT_DevMngmt_GetPairedId
+                0x00000000       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.BT_DevMngmt_GetConnId
+                0x00000000       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.BT_DevMngmt_GetProfileId
+                0x00000000       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.BT_DevMngmt_GetDevName
+                0x00000000       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.BT_DevMngmt_GetDevAddr
+                0x00000000       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_Switch
+                0x00000000       0x88 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_GetPwrState
+                0x00000000       0x74 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_SetName
+                0x00000000       0x98 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_GetName
+                0x00000000      0x100 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_GetLocalAddr
+                0x00000000       0xf0 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_SetVisble
+                0x00000000       0xb4 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_GetVisble
+                0x00000000       0x74 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_GetDevListInfo
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_GetDevListPointer
+                0x00000000        0xc build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_StopScan
+                0x00000000       0x58 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_StartScan
+                0x00000000       0xd0 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_Initialize
+                0x00000000       0x44 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_PairReq
+                0x00000000       0x74 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_PairConfirm
+                0x00000000       0xb4 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_Unpair
+                0x00000000       0xbc build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_GetSupportedProfile
+                0x00000000      0x11c build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_ConnReq
+                0x00000000       0xa4 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_SPP_DirectConn
+                0x00000000       0x84 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_ConnAccept
+                0x00000000       0x84 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_Disconnect
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_SPP_Send
+                0x00000000       0xa8 build\gcc\obj/ril/src/ril_bluetooth.o
+ .text.RIL_BT_SPP_Read
+                0x00000000       0xac build\gcc\obj/ril/src/ril_bluetooth.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_custom.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_custom.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/Ril_dtmf.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/Ril_dtmf.o
+ .text.ATResponse_Handler
+                0x00000000       0xfc build\gcc\obj/ril/src/Ril_dtmf.o
+ .text.RIL_ToneDet_Open
+                0x00000000       0x84 build\gcc\obj/ril/src/Ril_dtmf.o
+ .text.RIL_ToneDet_Close
+                0x00000000       0x78 build\gcc\obj/ril/src/Ril_dtmf.o
+ .text.RIL_ToneDet_Set
+                0x00000000       0xa4 build\gcc\obj/ril/src/Ril_dtmf.o
+ .text.RIL_ToneDet_Get
+                0x00000000       0xc0 build\gcc\obj/ril/src/Ril_dtmf.o
+ .text.RIL_WDTMF_Send
+                0x00000000       0xbc build\gcc\obj/ril/src/Ril_dtmf.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_ftp.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_ftp.o
+ .bss           0x00000000        0x0 build\gcc\obj/ril/src/ril_ftp.o
+ .text.ATResponse_QFTPSTAT_handler
+                0x00000000      0x198 build\gcc\obj/ril/src/ril_ftp.o
+ .text.ATResponse_QFTPLEN_handler
+                0x00000000      0x148 build\gcc\obj/ril/src/ril_ftp.o
+ .text.RIL_FTP_QFTPPUT
+                0x00000000       0xc8 build\gcc\obj/ril/src/ril_ftp.o
+ .text.RIL_FTP_QFTPSTAT
+                0x00000000       0x90 build\gcc\obj/ril/src/ril_ftp.o
+ .text.RIL_FTP_QFTPLEN
+                0x00000000       0x90 build\gcc\obj/ril/src/ril_ftp.o
+ .text.RIL_FTP_QFTPRENAME
+                0x00000000       0xc0 build\gcc\obj/ril/src/ril_ftp.o
+ .text.RIL_FTP_QFTPDELETE
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ftp.o
+ .text.RIL_FTP_QFTPMKDIR
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ftp.o
+ .text.RIL_FTP_QFTPRMDIR
+                0x00000000       0xb8 build\gcc\obj/ril/src/ril_ftp.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_gps.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_gps.o
+ .text.ATResponse_GPSReadTS_Hdlr
+                0x00000000      0x128 build\gcc\obj/ril/src/ril_gps.o
+ .text.ATResponse_GPSRead_Hdlr
+                0x00000000      0x3c8 build\gcc\obj/ril/src/ril_gps.o
+ .text.RIL_GPS_Open
+                0x00000000       0xb0 build\gcc\obj/ril/src/ril_gps.o
+ .text.RIL_GPS_Read
+                0x00000000      0x130 build\gcc\obj/ril/src/ril_gps.o
+ .text.RIL_GPS_Read_TimeSync_Status
+                0x00000000       0xb4 build\gcc\obj/ril/src/ril_gps.o
+ .text.RIL_GPS_CMD_Send
+                0x00000000       0xac build\gcc\obj/ril/src/ril_gps.o
+ .text.RIL_GPS_EPO_Enable
+                0x00000000       0x94 build\gcc\obj/ril/src/ril_gps.o
+ .text.RIL_GPS_EPO_Aid
+                0x00000000       0x84 build\gcc\obj/ril/src/ril_gps.o
+ .text.RIL_GPS_EPO_Config_APN
+                0x00000000       0xe8 build\gcc\obj/ril/src/ril_gps.o
+ .rodata.str1.1
+                0x00000000      0x118 build\gcc\obj/ril/src/ril_gps.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_http.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_http.o
+ .text.ATRsp_QHTTP_Handler
+                0x00000000      0x120 build\gcc\obj/ril/src/ril_http.o
+ .text.RIL_HTTP_SetServerURL
+                0x00000000       0xac build\gcc\obj/ril/src/ril_http.o
+ .text.RIL_HTTP_RequestToGet
+                0x00000000       0x94 build\gcc\obj/ril/src/ril_http.o
+ .text.RIL_HTTP_RequestToPost
+                0x00000000       0xa8 build\gcc\obj/ril/src/ril_http.o
+ .text.RIL_HTTP_ReadResponse
+                0x00000000       0xac build\gcc\obj/ril/src/ril_http.o
+ .text.RIL_HTTP_DownloadFile
+                0x00000000       0xa4 build\gcc\obj/ril/src/ril_http.o
+ .rodata        0x00000000       0x61 build\gcc\obj/ril/src/ril_http.o
+ .rodata.str1.1
+                0x00000000       0x2e build\gcc\obj/ril/src/ril_http.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_init.o
+ .bss           0x00000000        0x0 build\gcc\obj/ril/src/ril_init.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_location.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_location.o
+ .text.RIL_GetLocation
+                0x00000000       0xd4 build\gcc\obj/ril/src/ril_location.o
+ .text.RIL_GetLocationByCell
+                0x00000000       0xf4 build\gcc\obj/ril/src/ril_location.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_network.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_network.o
+ .bss           0x00000000        0x0 build\gcc\obj/ril/src/ril_network.o
+ .text.ATRsp_COPS_Handler
+                0x00000000      0x114 build\gcc\obj/ril/src/ril_network.o
+ .text.ATRsp_QIDEACT_Hdlr
+                0x00000000       0x54 build\gcc\obj/ril/src/ril_network.o
+ .text.ATResponse_CSQ_Handler
+                0x00000000       0xc4 build\gcc\obj/ril/src/ril_network.o
+ .text.ATResponse_CGREG_Handler
+                0x00000000       0xc8 build\gcc\obj/ril/src/ril_network.o
+ .text.ATResponse_CREG_Handler
+                0x00000000       0xc8 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_GetGSMState
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_GetGPRSState
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_GetSignalQuality
+                0x00000000       0x98 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_GetIpStatusByName
+                0x00000000      0x174 build\gcc\obj/ril/src/ril_network.o
+ .text.ATResponse_IPStatus_Handler
+                0x00000000      0x114 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_GetIPStatus
+                0x00000000       0x44 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_OpenPDPContext
+                0x00000000       0xb0 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_ClosePDPContext
+                0x00000000       0x70 build\gcc\obj/ril/src/ril_network.o
+ .text.RIL_NW_GetOperator
+                0x00000000       0x74 build\gcc\obj/ril/src/ril_network.o
+ .rodata        0x00000000       0x5d build\gcc\obj/ril/src/ril_network.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_ntp.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_ntp.o
+ .text.RIL_NTP_START
+                0x00000000       0x98 build\gcc\obj/ril/src/ril_ntp.o
+ .rodata.str1.1
+                0x00000000       0x12 build\gcc\obj/ril/src/ril_ntp.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_sim.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_sim.o
+ .bss           0x00000000        0x0 build\gcc\obj/ril/src/ril_sim.o
+ .text.ATRsp_CCID_Handler
+                0x00000000       0xc0 build\gcc\obj/ril/src/ril_sim.o
+ .text.ATRsp_IMSI_Handler
+                0x00000000       0x9c build\gcc\obj/ril/src/ril_sim.o
+ .text.ATResponse_CPIN_Handler
+                0x00000000      0x17c build\gcc\obj/ril/src/ril_sim.o
+ .text.RIL_SIM_GetSimState
+                0x00000000       0x78 build\gcc\obj/ril/src/ril_sim.o
+ .text.RIL_SIM_GetIMSI
+                0x00000000       0x74 build\gcc\obj/ril/src/ril_sim.o
+ .text.RIL_SIM_GetCCID
+                0x00000000       0x74 build\gcc\obj/ril/src/ril_sim.o
+ .rodata        0x00000000       0x25 build\gcc\obj/ril/src/ril_sim.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_sms.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_sms.o
+ .bss           0x00000000        0x1 build\gcc\obj/ril/src/ril_sms.o
+ .text.ADP_SMS_ConvIdxToCoreIdx
+                0x00000000       0x34 build\gcc\obj/ril/src/ril_sms.o
+ .text.CmdGetStorageInfo
+                0x00000000       0xe4 build\gcc\obj/ril/src/ril_sms.o
+ .text.CmdReadPDUMsg
+                0x00000000      0x140 build\gcc\obj/ril/src/ril_sms.o
+ .text.ConvStringToPhoneNumber
+                0x00000000       0xf4 build\gcc\obj/ril/src/ril_sms.o
+ .text.SMS_CMD_GeneralHandler
+                0x00000000      0x4f0 build\gcc\obj/ril/src/ril_sms.o
+ .text.CmdSendPDUMsg
+                0x00000000      0x180 build\gcc\obj/ril/src/ril_sms.o
+ .text.ConvPhoneNumberToString.constprop.1
+                0x00000000       0xc0 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_GetStorage
+                0x00000000       0x14 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_SetStorage
+                0x00000000      0x108 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_ReadSMS_PDU
+                0x00000000       0xd4 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_ReadSMS_Text
+                0x00000000      0x358 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_SendSMS_PDU
+                0x00000000       0xc0 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_SendSMS_Text
+                0x00000000      0x280 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_SendSMS_Text_Ext
+                0x00000000      0x304 build\gcc\obj/ril/src/ril_sms.o
+ .text.RIL_SMS_DeleteSMS
+                0x00000000      0x124 build\gcc\obj/ril/src/ril_sms.o
+ .rodata.str1.1
+                0x00000000       0xcb build\gcc\obj/ril/src/ril_sms.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_sms.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/ril/src/ril_sms.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_system.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_system.o
+ .bss           0x00000000        0x1 build\gcc\obj/ril/src/ril_system.o
+ .text.ATRsp_IMEI_Handler
+                0x00000000       0x9c build\gcc\obj/ril/src/ril_system.o
+ .text.SecureData_Read_Callback
+                0x00000000      0x128 build\gcc\obj/ril/src/ril_system.o
+ .text.Power_ATResponse_Hanlder
+                0x00000000      0x18c build\gcc\obj/ril/src/ril_system.o
+ .text.SYS_ATResponse_Hanlder
+                0x00000000      0x128 build\gcc\obj/ril/src/ril_system.o
+ .text.RIL_QuerySysInitStatus
+                0x00000000       0x34 build\gcc\obj/ril/src/ril_system.o
+ .text.RIL_GetPowerSupply
+                0x00000000       0x58 build\gcc\obj/ril/src/ril_system.o
+ .text.Ql_SecureData_Store
+                0x00000000      0x164 build\gcc\obj/ril/src/ril_system.o
+ .text.Ql_SecureData_Read
+                0x00000000      0x218 build\gcc\obj/ril/src/ril_system.o
+ .text.RIL_GetIMEI
+                0x00000000       0x70 build\gcc\obj/ril/src/ril_system.o
+ .rodata        0x00000000        0x8 build\gcc\obj/ril/src/ril_system.o
+ .rodata.str1.1
+                0x00000000       0x79 build\gcc\obj/ril/src/ril_system.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_system.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/ril/src/ril_system.o
+ COMMON         0x00000000        0x4 build\gcc\obj/ril/src/ril_system.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_telephony.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_telephony.o
+ .bss           0x00000000        0x0 build\gcc\obj/ril/src/ril_telephony.o
+ .text.Telephony_Answer_AT_handler
+                0x00000000       0xac build\gcc\obj/ril/src/ril_telephony.o
+ .text.Telephony_Dial_AT_handler
+                0x00000000       0xf4 build\gcc\obj/ril/src/ril_telephony.o
+ .text.RIL_Telephony_Dial
+                0x00000000       0x90 build\gcc\obj/ril/src/ril_telephony.o
+ .text.RIL_Telephony_Answer
+                0x00000000       0x34 build\gcc\obj/ril/src/ril_telephony.o
+ .text.RIL_Telephony_Hangup
+                0x00000000       0x2c build\gcc\obj/ril/src/ril_telephony.o
+ .rodata.str1.1
+                0x00000000       0x40 build\gcc\obj/ril/src/ril_telephony.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_urc.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_urc.o
+ .text          0x00000000        0x0 build\gcc\obj/ril/src/ril_util.o
+ .data          0x00000000        0x0 build\gcc\obj/ril/src/ril_util.o
+ .bss           0x00000000        0x0 build\gcc\obj/ril/src/ril_util.o
+ .text.Ql_HexStrToInt
+                0x00000000       0x8c build\gcc\obj/ril/src/ril_util.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_adc.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_adc.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_adc.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_adc.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_adc.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_alarm.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_alarm.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_alarm.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_alarm.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_alarm.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_audio.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_audio.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_audio.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_audio.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_audio.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_ble.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_ble.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_ble.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_ble.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_ble.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_blescan.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_blescan.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_blescan.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_blescan.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_blescan.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_bluetooth.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_bluetooth.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_bluetooth.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_bluetooth.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_bluetooth.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_call.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_call.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_call.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_call.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_call.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_clk.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_clk.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_clk.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_clk.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_clk.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_csd.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_csd.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_csd.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_csd.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_csd.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_download_epo.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_download_epo.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_download_epo.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_download_epo.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_download_epo.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_dtmf.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_dtmf.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_dtmf.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_dtmf.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_dtmf.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_eint.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_eint.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_eint.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_eint.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_eint.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_file.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_file.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_file.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_file.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_file.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_float_math.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_float_math.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_float_math.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_float_math.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_float_math.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_fota_ftp.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_fota_ftp.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_fota_ftp.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_fota_ftp.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_fota_ftp.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_fota_http.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_fota_http.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_fota_http.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_fota_http.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_fota_http.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_ftp.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_ftp.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_ftp.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_ftp.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_ftp.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_gpio.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_gpio.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_gpio.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_gpio.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_gpio.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_gps.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_gps.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_gps.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_gps.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_gps.o
+ .text          0x00000000        0x0 build\gcc\obj/example/Example_gps_iic.o
+ .data          0x00000000        0x0 build\gcc\obj/example/Example_gps_iic.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/Example_gps_iic.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/Example_gps_iic.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/Example_gps_iic.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_http.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_http.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_http.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_http.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_http.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_iic.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_iic.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_iic.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_iic.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_iic.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_location.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_location.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_location.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_location.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_location.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_memory.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_memory.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_memory.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_memory.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_memory.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_mpu6050.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_mpu6050.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_mpu6050.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_mpu6050.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_mpu6050.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_multitask.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_multitask.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_multitask.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_multitask.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_multitask.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_multitask_port.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_multitask_port.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_multitask_port.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_multitask_port.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_multitask_port.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_pwm.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_pwm.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_pwm.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_pwm.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_pwm.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_sms.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_sms.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_sms.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_sms.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_sms.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_spi.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_spi.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_spi.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_spi.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_spi.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_system.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_system.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_system.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_system.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_system.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_tcp_demo.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_tcp_demo.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_tcp_demo.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_tcp_demo.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_tcp_demo.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_tcpclient.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_tcpclient.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_tcpclient.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_tcpclient.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_tcpclient.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_tcpserver.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_tcpserver.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_tcpserver.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_tcpserver.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_tcpserver.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_time.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_time.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_time.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_time.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_time.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_timer.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_timer.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_timer.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_timer.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_timer.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_transpass.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_transpass.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_transpass.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_transpass.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_transpass.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_udpclient.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_udpclient.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_udpclient.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_udpclient.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_udpclient.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_udpserver.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_udpserver.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_udpserver.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_udpserver.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_udpserver.o
+ .text          0x00000000        0x0 build\gcc\obj/example/example_watchdog.o
+ .data          0x00000000        0x0 build\gcc\obj/example/example_watchdog.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/example_watchdog.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/example_watchdog.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/example_watchdog.o
+ .text          0x00000000        0x0 build\gcc\obj/example/nema_pro.o
+ .data          0x00000000        0x0 build\gcc\obj/example/nema_pro.o
+ .bss           0x00000000      0xa08 build\gcc\obj/example/nema_pro.o
+ .text.IIC_ReadBytes
+                0x00000000      0x1d0 build\gcc\obj/example/nema_pro.o
+ .text.IIC_WriteBytyes
+                0x00000000       0xc0 build\gcc\obj/example/nema_pro.o
+ .text.read_gps_I2C_buffer
+                0x00000000       0xc0 build\gcc\obj/example/nema_pro.o
+ .text.iop_init_pcrx
+                0x00000000       0x8c build\gcc\obj/example/nema_pro.o
+ .text.iop_inst_avail
+                0x00000000       0xa0 build\gcc\obj/example/nema_pro.o
+ .text.iop_get_inst
+                0x00000000       0x38 build\gcc\obj/example/nema_pro.o
+ .text.iop_pcrx_nmea
+                0x00000000      0x1b8 build\gcc\obj/example/nema_pro.o
+ .text.extract_nmea
+                0x00000000      0x1f0 build\gcc\obj/example/nema_pro.o
+ .text.get_nmea
+                0x00000000      0x15c build\gcc\obj/example/nema_pro.o
+ .rodata.str1.1
+                0x00000000      0x1a1 build\gcc\obj/example/nema_pro.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/nema_pro.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/nema_pro.o
+ COMMON         0x00000000     0x8718 build\gcc\obj/example/nema_pro.o
+ .text          0x00000000        0x0 build\gcc\obj/example/utility.o
+ .data          0x00000000        0x0 build\gcc\obj/example/utility.o
+ .bss           0x00000000        0x0 build\gcc\obj/example/utility.o
+ .text.Analyse_Command
+                0x00000000      0x184 build\gcc\obj/example/utility.o
+ .rodata.str1.1
+                0x00000000        0xb build\gcc\obj/example/utility.o
+ .comment       0x00000000       0x31 build\gcc\obj/example/utility.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/example/utility.o
+ .text          0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_ftp.o
+ .data          0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_ftp.o
+ .text          0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_http.o
+ .data          0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_http.o
+ .bss           0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_http.o
+ .comment       0x00000000       0x31 build\gcc\obj/custom/fota/src/fota_http.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/custom/fota/src/fota_http.o
+ .text          0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_http_code.o
+ .data          0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_http_code.o
+ .bss           0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_http_code.o
+ .comment       0x00000000       0x31 build\gcc\obj/custom/fota/src/fota_http_code.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/custom/fota/src/fota_http_code.o
+ .text          0x00000000        0x0 build\gcc\obj/custom/fota/src/fota_main.o
+ .text.Ql_FOTA_StopUpgrade
+                0x00000000        0x8 build\gcc\obj/custom/fota/src/fota_main.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_config/PRD.o
+ .bss           0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_config/PRD.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.CheckClientName
+                0x00000000       0xa0 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.CheckBtPariSta
+                0x00000000       0x60 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtScaning
+                0x00000000       0xb0 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtaysPairId
+                0x00000000      0x13c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtaysConnetId
+                0x00000000      0x13c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtaysSendId
+                0x00000000      0x13c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtaysReadId
+                0x00000000       0xa8 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.Bt_Clint_Init
+                0x00000000      0x17c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.Bt_Clint_SendData
+                0x00000000      0x180 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.Bt_Server_js
+                0x00000000      0x174 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtAsysData
+                0x00000000       0x9c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtServerScaning
+                0x00000000       0x9c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.BtNewInit2
+                0x00000000       0xbc build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text.ScanSerIng
+                0x00000000       0xc4 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ COMMON         0x00000000        0x4 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .text.ATResponse_CFUN_Handler
+                0x00000000       0x9c build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .text.RIL_SIM_ResetCfun4
+                0x00000000       0xd4 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .text.RIL_SIM_ResetCfun1
+                0x00000000       0xd4 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .text.NMEA_Pow
+                0x00000000       0x24 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .rodata        0x00000000       0x16 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/lcd.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/lcd.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .bss           0x00000000      0x200 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_i2c_init
+                0x00000000      0x158 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Read_Len
+                0x00000000      0x124 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Get_Accelerometer
+                0x00000000       0xe4 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Get_Gyroscope
+                0x00000000       0xe4 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Get_Temperature
+                0x00000000       0xac build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Write_Byte
+                0x00000000       0xa8 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Set_LPF
+                0x00000000       0x54 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Set_Rate
+                0x00000000       0x5c build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Wakeup
+                0x00000000       0x30 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Sleep
+                0x00000000       0x30 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Read_Byte
+                0x00000000       0x4c build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text.MPU_Init
+                0x00000000      0x138 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .rodata.str1.1
+                0x00000000      0x213 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+ .text.GetimeiInit
+                0x00000000       0x88 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+ .text.Get_imeiStr_Use
+                0x00000000       0x30 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+ .text.GetSnFromImei
+                0x00000000      0x1e8 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+ .text.Delayus  0x00000000        0x4 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+ .text.ReciveTheMsgFromIO
+                0x00000000        0x4 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+ .text.WzAynsCmd
+                0x00000000       0x80 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+ .text.SendData2Protocol
+                0x00000000      0x18c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .data          0x00000000       0x34 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.dateDiff
+                0x00000000      0x218 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.leapYear
+                0x00000000       0x48 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.getNewDate
+                0x00000000      0x18c build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.TimeInit
+                0x00000000       0x2c build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.GetTimeSrc
+                0x00000000       0xc0 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.RTC_Get_UTC
+                0x00000000      0x108 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.RTC_Get  0x00000000       0xec build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text.StTimeInit
+                0x00000000       0x40 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .rodata        0x00000000       0x60 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/tt.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/tt.o
+ .bss           0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/tt.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/tt.o
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/tt.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ .text.tdelay   0x00000000        0x4 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ .text.delay20us
+                0x00000000        0x4 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ .text.Getmac_Str_Use
+                0x00000000       0xbc build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+ .text          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .data          0x00000000        0x0 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.ProValuesInit
+                0x00000000       0x98 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.CoreDataInit
+                0x00000000       0xb0 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.JsSysSerNum
+                0x00000000       0x68 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.ProReadTimeValuesInit
+                0x00000000       0x60 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.ProReadIDValuesInit
+                0x00000000       0x60 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.ProReadSendTValuesInit
+                0x00000000       0x54 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.LTlv_Init
+                0x00000000       0x78 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.ProValuesInit_v3
+                0x00000000       0xb4 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text.CoreDataInit_v3
+                0x00000000       0xb0 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(adc.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(adc.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(fileSys.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_GetFilePosition
+                0x00000000       0x60 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_Truncate
+                0x00000000       0x60 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_Rename
+                0x00000000       0x68 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_DeleteDir
+                0x00000000       0x60 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_FindFirst
+                0x00000000       0x80 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_FindNext
+                0x00000000       0x80 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_FindClose
+                0x00000000       0x54 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_XDelete
+                0x00000000       0x68 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_XMove
+                0x00000000       0x70 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_GetFreeSpace
+                0x00000000       0x74 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_GetTotalSpace
+                0x00000000       0x74 libs/gcc/app_start.lib(fileSys.o)
+ .text.Ql_FS_Format
+                0x00000000       0x60 libs/gcc/app_start.lib(fileSys.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(fota.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(fota.o)
+ .text.Ql_FOTA_ReadData
+                0x00000000       0x70 libs/gcc/app_start.lib(fota.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(gpio.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(gpio.o)
+ .text.Ql_GPIO_SetDirection
+                0x00000000       0x68 libs/gcc/app_start.lib(gpio.o)
+ .text.Ql_GPIO_GetDirection
+                0x00000000       0x60 libs/gcc/app_start.lib(gpio.o)
+ .text.Ql_GPIO_SetPullSelection
+                0x00000000       0x68 libs/gcc/app_start.lib(gpio.o)
+ .text.Ql_GPIO_GetPullSelection
+                0x00000000       0x60 libs/gcc/app_start.lib(gpio.o)
+ .text.Ql_GPIO_Uninit
+                0x00000000       0x60 libs/gcc/app_start.lib(gpio.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(gprs.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_Config
+                0x00000000       0x68 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_Register
+                0x00000000       0x70 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_Activate
+                0x00000000       0x60 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_ActivateEx
+                0x00000000       0x68 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_Deactivate
+                0x00000000       0x60 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_DeactivateEx
+                0x00000000       0x68 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_GetLocalIPAddress
+                0x00000000       0x68 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_GetDNSAddress
+                0x00000000       0x70 libs/gcc/app_start.lib(gprs.o)
+ .text.Ql_GPRS_SetDNSAddress
+                0x00000000       0x70 libs/gcc/app_start.lib(gprs.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(iic.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(iic.o)
+ .text.Ql_IIC_Uninit
+                0x00000000       0x60 libs/gcc/app_start.lib(iic.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .bss           0x00000000        0x0 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.EncodeAddress
+                0x00000000      0x228 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.DecodeUserDataHeader
+                0x00000000       0xb8 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.EncodeGSM7Bit.part.2
+                0x00000000       0xd4 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.DecodeGSM7Bit
+                0x00000000      0x148 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.DecodeAddress
+                0x00000000      0x218 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.DecordUserDataBody.part.5
+                0x00000000      0x180 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.DecodeTimeStamp.constprop.8
+                0x00000000       0xfc libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_IsValidHexStr
+                0x00000000       0x54 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_ConvHexOctToHexStr
+                0x00000000       0xa8 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_ConvHexStrToHexOct
+                0x00000000       0xe8 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_DecodeDCS
+                0x00000000      0x164 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_ConvAlphaToCharSet
+                0x00000000      0x43c libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_ConvCharSetToAlpha
+                0x00000000      0x7b4 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_DecodePDUStr
+                0x00000000      0x500 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text.LIB_SMS_EncodeSubmitPDU
+                0x00000000      0x730 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .rodata        0x00000000      0x3bc libs/gcc/app_start.lib(lib_ril_sms.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(lib_ril_sms.o)
+ .ARM.attributes
+                0x00000000       0x2b libs/gcc/app_start.lib(lib_ril_sms.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(memory.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(memory.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(pwm.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(pwm.o)
+ .text.Ql_PWM_Uninit
+                0x00000000       0x60 libs/gcc/app_start.lib(pwm.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(ql_func.o)
+ .text.Ql_StartPlayAudioStream
+                0x00000000       0x7c libs/gcc/app_start.lib(ql_func.o)
+ .text.Ql_StopPlayAudioStream
+                0x00000000       0x4c libs/gcc/app_start.lib(ql_func.o)
+ .text.Ql_GetRelativeTime_Counter
+                0x00000000       0x40 libs/gcc/app_start.lib(ql_func.o)
+ .text.Ql_SecondToTicks
+                0x00000000       0x48 libs/gcc/app_start.lib(ql_func.o)
+ .text.Ql_MillisecondToTicks
+                0x00000000       0x48 libs/gcc/app_start.lib(ql_func.o)
+ .text.Ql_CalendarTime2LocalTime
+                0x00000000       0x58 libs/gcc/app_start.lib(ql_func.o)
+ .text.Ql_osChangeTaskPriority
+                0x00000000       0x50 libs/gcc/app_start.lib(ql_func.o)
+ .rodata.str1.1
+                0x00000000       0xa3 libs/gcc/app_start.lib(ql_func.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(ql_main.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(ql_main.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(ril_aux.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(ril_main.o)
+ .text.get_ril_init_status
+                0x00000000       0x10 libs/gcc/app_start.lib(ril_main.o)
+ .text.Ql_RIL_WriteDataToCore
+                0x00000000       0x24 libs/gcc/app_start.lib(ril_main.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(stdlib_func.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_create_api_hash
+                0x00000000       0x28 libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_ui64toa
+                0x00000000       0xac libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_itoa  0x00000000       0x9c libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_strcat
+                0x00000000       0x80 libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_strncat
+                0x00000000       0x88 libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_memcmp
+                0x00000000       0x70 libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_memmove
+                0x00000000       0x88 libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_strchr
+                0x00000000       0x80 libs/gcc/app_start.lib(stdlib_func.o)
+ .text.Ql_isdigit
+                0x00000000       0x14 libs/gcc/app_start.lib(stdlib_func.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(system.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(system.o)
+ .text.Ql_GetUID
+                0x00000000       0x68 libs/gcc/app_start.lib(system.o)
+ .text.Ql_GetMsSincePwrOn
+                0x00000000       0x84 libs/gcc/app_start.lib(system.o)
+ .text.Ql_GetCoreVer
+                0x00000000       0x6c libs/gcc/app_start.lib(system.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(taskMngt.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_OS_CreateSemaphore
+                0x00000000       0x5c libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_OS_TakeSemaphore
+                0x00000000       0x5c libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_OS_GiveSemaphore
+                0x00000000       0x54 libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_OS_GetActiveTaskId
+                0x00000000       0x58 libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_SetLastErrorCode
+                0x00000000       0x60 libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_GetLastErrorCode
+                0x00000000       0x58 libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_OS_GetCurrentTaskPriority
+                0x00000000       0x4c libs/gcc/app_start.lib(taskMngt.o)
+ .text.Ql_OS_GetCurrenTaskLeftStackSize
+                0x00000000       0x4c libs/gcc/app_start.lib(taskMngt.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(time.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(time.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(timer.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(timer.o)
+ .text.Ql_Timer_RegisterFast
+                0x00000000       0x70 libs/gcc/app_start.lib(timer.o)
+ .text          0x00000000        0x0 libs/gcc/app_start.lib(uart.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_OpenEx
+                0x00000000       0x68 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_RX_Enable
+                0x00000000       0x5c libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_RX_Disable
+                0x00000000       0x5c libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_SetDCBConfig
+                0x00000000       0x68 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_GetDCBConfig
+                0x00000000       0x68 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_ClrRxBuffer
+                0x00000000       0x54 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_ClrTxBuffer
+                0x00000000       0x54 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_GetOption
+                0x00000000       0x70 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_SetOption
+                0x00000000       0x70 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_SetPinStatus
+                0x00000000       0x70 libs/gcc/app_start.lib(uart.o)
+ .text.Ql_UART_Close
+                0x00000000       0x54 libs/gcc/app_start.lib(uart.o)
+ .data          0x00000000        0x0 libs/gcc/app_start.lib(ocpu_init.o)
+ .bss           0x00000000        0x0 libs/gcc/app_start.lib(ocpu_init.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strchr.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strchr.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o)
+ .text          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_udivsi3.o)
+ .text          0x00000000      0x150 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_divsi3.o)
+ .debug_frame   0x00000000       0x20 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000       0x5c E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000000       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x00000000        0x0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunssfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x102ef040         0x00046000         xr
+RAM              0xf03d2000         0x00019000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x102ef040                . = 0x102ef040
+
+.initdata       0x102ef040       0x2c
+ *(.initdata)
+ .initdata      0x102ef040       0x2c libs/gcc/app_start.lib(ql_main.o)
+                0x102ef040                GADLENTRY
+
+text            0x102ef070     0x1b70
+ *(.text)
+ .text          0x102ef070       0x4c libs/gcc/app_start.lib(ocpu_init.o)
+                0x102ef070                _OCPU_InitUserMem
+ .text          0x102ef0bc      0x108 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy.o)
+                0x102ef0bc                memcpy
+ .text          0x102ef1c4       0x90 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+                0x102ef1c4                memset
+ .text          0x102ef254       0xe4 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strchr.o)
+                0x102ef254                strchr
+ .text          0x102ef338       0x10 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strcpy.o)
+                0x102ef338                strcpy
+ .text          0x102ef348       0x10 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+                0x102ef348                strlen
+ .text          0x102ef358      0x4c8 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o)
+                0x102ef628                strstr
+ .text          0x102ef820      0x184 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o)
+                0x102ef820                _strtol_r
+                0x102ef984                strtol
+ .text          0x102ef9a4       0x94 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr.o)
+                0x102ef9a4                memchr
+ .text          0x102efa38       0x64 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcmp.o)
+                0x102efa38                memcmp
+ .text          0x102efa9c      0x11c E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_udivsi3.o)
+                0x102efa9c                __aeabi_uidiv
+                0x102efa9c                __udivsi3
+                0x102efb98                __aeabi_uidivmod
+ .text          0x102efbb8        0x4 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_dvmd_tls.o)
+                0x102efbb8                __aeabi_idiv0
+                0x102efbb8                __aeabi_ldiv0
+ .text          0x102efbbc      0x41c E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubdf3.o)
+                0x102efbbc                __aeabi_drsub
+                0x102efbc4                __aeabi_dsub
+                0x102efbc4                __subdf3
+                0x102efbc8                __aeabi_dadd
+                0x102efbc8                __adddf3
+                0x102efed8                __floatunsidf
+                0x102efed8                __aeabi_ui2d
+                0x102efefc                __floatsidf
+                0x102efefc                __aeabi_i2d
+                0x102eff24                __aeabi_f2d
+                0x102eff24                __extendsfdf2
+                0x102eff64                __floatundidf
+                0x102eff64                __aeabi_ul2d
+                0x102eff78                __floatdidf
+                0x102eff78                __aeabi_l2d
+ .text          0x102effd8      0x49c E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivdf3.o)
+                0x102effd8                __aeabi_dmul
+                0x102effd8                __muldf3
+                0x102f0268                __divdf3
+                0x102f0268                __aeabi_ddiv
+ .text          0x102f0474       0x5c E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixdfsi.o)
+                0x102f0474                __aeabi_d2iz
+                0x102f0474                __fixdfsi
+ .text          0x102f04d0       0x54 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunsdfsi.o)
+                0x102f04d0                __aeabi_d2uiz
+                0x102f04d0                __fixunsdfsi
+ .text          0x102f0524       0xa0 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_truncdfsf2.o)
+                0x102f0524                __truncdfsf2
+                0x102f0524                __aeabi_d2f
+ .text          0x102f05c4      0x2ac E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubsf3.o)
+                0x102f05c4                __aeabi_frsub
+                0x102f05cc                __subsf3
+                0x102f05cc                __aeabi_fsub
+                0x102f05d0                __aeabi_fadd
+                0x102f05d0                __addsf3
+                0x102f078c                __aeabi_ui2f
+                0x102f078c                __floatunsisf
+                0x102f0794                __aeabi_i2f
+                0x102f0794                __floatsisf
+                0x102f07b4                __aeabi_ul2f
+                0x102f07b4                __floatundisf
+                0x102f07c4                __aeabi_l2f
+                0x102f07c4                __floatdisf
+ .text          0x102f0870      0x2f8 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivsf3.o)
+                0x102f0870                __mulsf3
+                0x102f0870                __aeabi_fmul
+                0x102f0a08                __aeabi_fdiv
+                0x102f0a08                __divsf3
+ .text          0x102f0b68       0x54 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunssfsi.o)
+                0x102f0b68                __fixunssfsi
+                0x102f0b68                __aeabi_f2uiz
+ *fill*         0x102f0bbc        0x4 00
+ .text.stub     0x102f0bc0       0x1c linker stubs
+
+.glue_7         0x102f0be0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x102f0be0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x102f0be0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x102f0be0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.text.Ql_WTD_GetWDIPinCfg
+                0x102f0be0        0xc
+ .text.Ql_WTD_GetWDIPinCfg
+                0x102f0be0        0xc build\gcc\obj/custom/config/custom_sys_cfg.o
+                0x102f0be0                Ql_WTD_GetWDIPinCfg
+
+.iplt           0x102f0bec        0x0
+ .iplt          0x00000000        0x0 build\gcc\obj/custom/config/custom_sys_cfg.o
+
+.text.Ql_RIL_AT_SetErrCode
+                0x102f0bec       0x10
+ .text.Ql_RIL_AT_SetErrCode
+                0x102f0bec       0x10 build\gcc\obj/ril/src/ril_atResponse.o
+                0x102f0bec                Ql_RIL_AT_SetErrCode
+
+.text.Default_atRsp_callback
+                0x102f0bfc       0xcc
+ .text.Default_atRsp_callback
+                0x102f0bfc       0xcc build\gcc\obj/ril/src/ril_atResponse.o
+                0x102f0bfc                Default_atRsp_callback
+
+.text.OnURCHandler_BTGatscon
+                0x102f0cc8      0x118
+ .text.OnURCHandler_BTGatscon
+                0x102f0cc8      0x118 build\gcc\obj/ril/src/ril_ble.o
+                0x102f0cc8                OnURCHandler_BTGatscon
+
+.text.OnURCHandler_BTGatwreq
+                0x102f0de0       0xf0
+ .text.OnURCHandler_BTGatwreq
+                0x102f0de0       0xf0 build\gcc\obj/ril/src/ril_ble.o
+                0x102f0de0                OnURCHandler_BTGatwreq
+
+.text.OnURCHandler_BTGatrreq
+                0x102f0ed0       0xc0
+ .text.OnURCHandler_BTGatrreq
+                0x102f0ed0       0xc0 build\gcc\obj/ril/src/ril_ble.o
+                0x102f0ed0                OnURCHandler_BTGatrreq
+
+.text.OnURCHandler_BTpxpscon
+                0x102f0f90       0xa8
+ .text.OnURCHandler_BTpxpscon
+                0x102f0f90       0xa8 build\gcc\obj/ril/src/ril_ble.o
+                0x102f0f90                OnURCHandler_BTpxpscon
+
+.text.OnURCHandler_BTfmpscon
+                0x102f1038       0x9c
+ .text.OnURCHandler_BTfmpscon
+                0x102f1038       0x9c build\gcc\obj/ril/src/ril_ble.o
+                0x102f1038                OnURCHandler_BTfmpscon
+
+.text.BT_DevMngmt_Append
+                0x102f10d4       0x38
+ .text.BT_DevMngmt_Append
+                0x102f10d4       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+
+.text.BT_DevMngmt_isFull
+                0x102f110c       0x40
+ .text.BT_DevMngmt_isFull
+                0x102f110c       0x40 build\gcc\obj/ril/src/ril_bluetooth.o
+
+.text.ATRsp_QBTSTATE_Hdlr
+                0x102f114c      0x430
+ .text.ATRsp_QBTSTATE_Hdlr
+                0x102f114c      0x430 build\gcc\obj/ril/src/ril_bluetooth.o
+
+.text.BT_DevMngmt_UpdateProfileId.constprop.0
+                0x102f157c       0x38
+ .text.BT_DevMngmt_UpdateProfileId.constprop.0
+                0x102f157c       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+
+.text.BT_DevMngmt_UpdatePairId.constprop.1
+                0x102f15b4       0x38
+ .text.BT_DevMngmt_UpdatePairId.constprop.1
+                0x102f15b4       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+
+.text.BT_DevMngmt_UpdateConnId.constprop.2
+                0x102f15ec       0x38
+ .text.BT_DevMngmt_UpdateConnId.constprop.2
+                0x102f15ec       0x38 build\gcc\obj/ril/src/ril_bluetooth.o
+
+.text.OnURCHandler_BTVisible
+                0x102f1624       0xec
+ .text.OnURCHandler_BTVisible
+                0x102f1624       0xec build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f1624                OnURCHandler_BTVisible
+
+.text.OnURCHandler_BTScan
+                0x102f1710      0x278
+ .text.OnURCHandler_BTScan
+                0x102f1710      0x278 build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f1710                OnURCHandler_BTScan
+
+.text.RIL_BT_QueryState
+                0x102f1988       0x68
+ .text.RIL_BT_QueryState
+                0x102f1988       0x68 build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f1988                RIL_BT_QueryState
+
+.text.OnURCHandler_BTPair
+                0x102f19f0      0x210
+ .text.OnURCHandler_BTPair
+                0x102f19f0      0x210 build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f19f0                OnURCHandler_BTPair
+
+.text.OnURCHandler_BTPairCnf
+                0x102f1c00      0x218
+ .text.OnURCHandler_BTPairCnf
+                0x102f1c00      0x218 build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f1c00                OnURCHandler_BTPairCnf
+
+.text.OnURCHandler_BTConn
+                0x102f1e18      0x234
+ .text.OnURCHandler_BTConn
+                0x102f1e18      0x234 build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f1e18                OnURCHandler_BTConn
+
+.text.OnURCHandler_BTConnCnf
+                0x102f204c      0x2bc
+ .text.OnURCHandler_BTConnCnf
+                0x102f204c      0x2bc build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f204c                OnURCHandler_BTConnCnf
+
+.text.OnURCHandler_BTDisconn
+                0x102f2308      0x1c0
+ .text.OnURCHandler_BTDisconn
+                0x102f2308      0x1c0 build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f2308                OnURCHandler_BTDisconn
+
+.text.OnURCHandler_BTIndication
+                0x102f24c8      0x354
+ .text.OnURCHandler_BTIndication
+                0x102f24c8      0x354 build\gcc\obj/ril/src/ril_bluetooth.o
+                0x102f24c8                OnURCHandler_BTIndication
+
+.text.Ql_RIL_RcvDataFrmCore
+                0x102f281c       0x20
+ .text.Ql_RIL_RcvDataFrmCore
+                0x102f281c       0x20 build\gcc\obj/ril/src/ril_custom.o
+                0x102f281c                Ql_RIL_RcvDataFrmCore
+
+.text.OnURCHandler_QToneDet
+                0x102f283c       0xf0
+ .text.OnURCHandler_QToneDet
+                0x102f283c       0xf0 build\gcc\obj/ril/src/Ril_dtmf.o
+                0x102f283c                OnURCHandler_QToneDet
+
+.text.OnURCHandler_QWDTMF
+                0x102f292c       0xa0
+ .text.OnURCHandler_QWDTMF
+                0x102f292c       0xa0 build\gcc\obj/ril/src/Ril_dtmf.o
+                0x102f292c                OnURCHandler_QWDTMF
+
+.text.Callback_QIDEACT
+                0x102f29cc       0x54
+ .text.Callback_QIDEACT
+                0x102f29cc       0x54 build\gcc\obj/ril/src/ril_ftp.o
+
+.text.ATResponse_FTP_handler_Common
+                0x102f2a20      0x150
+ .text.ATResponse_FTP_handler_Common
+                0x102f2a20      0x150 build\gcc\obj/ril/src/ril_ftp.o
+
+.text.RIL_FTP_QFTPOPEN
+                0x102f2b70      0x294
+ .text.RIL_FTP_QFTPOPEN
+                0x102f2b70      0x294 build\gcc\obj/ril/src/ril_ftp.o
+                0x102f2b70                RIL_FTP_QFTPOPEN
+
+.text.RIL_FTP_QFTPCLOSE
+                0x102f2e04       0xa8
+ .text.RIL_FTP_QFTPCLOSE
+                0x102f2e04       0xa8 build\gcc\obj/ril/src/ril_ftp.o
+                0x102f2e04                RIL_FTP_QFTPCLOSE
+
+.text.RIL_FTP_QFTPGET
+                0x102f2eac       0xbc
+ .text.RIL_FTP_QFTPGET
+                0x102f2eac       0xbc build\gcc\obj/ril/src/ril_ftp.o
+                0x102f2eac                RIL_FTP_QFTPGET
+
+.text.RIL_FTP_QFTPPATH
+                0x102f2f68       0xb8
+ .text.RIL_FTP_QFTPPATH
+                0x102f2f68       0xb8 build\gcc\obj/ril/src/ril_ftp.o
+                0x102f2f68                RIL_FTP_QFTPPATH
+
+.text.RIL_FTP_QFTPCFG
+                0x102f3020       0xc0
+ .text.RIL_FTP_QFTPCFG
+                0x102f3020       0xc0 build\gcc\obj/ril/src/ril_ftp.o
+                0x102f3020                RIL_FTP_QFTPCFG
+
+.text.RIL_FTP_QFTPSIZE
+                0x102f30e0       0xb4
+ .text.RIL_FTP_QFTPSIZE
+                0x102f30e0       0xb4 build\gcc\obj/ril/src/ril_ftp.o
+                0x102f30e0                RIL_FTP_QFTPSIZE
+
+.text.RIL_FTP_QIDEACT
+                0x102f3194       0x30
+ .text.RIL_FTP_QIDEACT
+                0x102f3194       0x30 build\gcc\obj/ril/src/ril_ftp.o
+                0x102f3194                RIL_FTP_QIDEACT
+
+.text.OnURCHandler_GPSCMD
+                0x102f31c4       0x6c
+ .text.OnURCHandler_GPSCMD
+                0x102f31c4       0x6c build\gcc\obj/ril/src/ril_gps.o
+                0x102f31c4                OnURCHandler_GPSCMD
+
+.text.RIL_GetInitCmdCnt
+                0x102f3230        0x8
+ .text.RIL_GetInitCmdCnt
+                0x102f3230        0x8 build\gcc\obj/ril/src/ril_init.o
+                0x102f3230                RIL_GetInitCmdCnt
+
+.text.RIL_GetLimitedCmdCnt
+                0x102f3238        0x8
+ .text.RIL_GetLimitedCmdCnt
+                0x102f3238        0x8 build\gcc\obj/ril/src/ril_init.o
+                0x102f3238                RIL_GetLimitedCmdCnt
+
+.text.OnURCHandler_QCELLLocation
+                0x102f3240       0xd4
+ .text.OnURCHandler_QCELLLocation
+                0x102f3240       0xd4 build\gcc\obj/ril/src/ril_location.o
+                0x102f3240                OnURCHandler_QCELLLocation
+
+.text.RIL_NW_SetGPRSContext
+                0x102f3314       0x7c
+ .text.RIL_NW_SetGPRSContext
+                0x102f3314       0x7c build\gcc\obj/ril/src/ril_network.o
+                0x102f3314                RIL_NW_SetGPRSContext
+
+.text.RIL_NW_SetAPN
+                0x102f3390       0xec
+ .text.RIL_NW_SetAPN
+                0x102f3390       0xec build\gcc\obj/ril/src/ril_network.o
+                0x102f3390                RIL_NW_SetAPN
+
+.text.OnURCHandler_NTPCMD
+                0x102f347c       0x6c
+ .text.OnURCHandler_NTPCMD
+                0x102f347c       0x6c build\gcc\obj/ril/src/ril_ntp.o
+                0x102f347c                OnURCHandler_NTPCMD
+
+.text.RIL_SIM_GetSimStateByName
+                0x102f34e8      0x154
+ .text.RIL_SIM_GetSimStateByName
+                0x102f34e8      0x154 build\gcc\obj/ril/src/ril_sim.o
+                0x102f34e8                RIL_SIM_GetSimStateByName
+
+.text.OnURCHandler_HTTP
+                0x102f363c       0x6c
+ .text.OnURCHandler_HTTP
+                0x102f363c       0x6c build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_AudPlayInd
+                0x102f36a8       0x50
+ .text.OnURCHandler_AudPlayInd
+                0x102f36a8       0x50 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_FTP
+                0x102f36f8      0x170
+ .text.OnURCHandler_FTP
+                0x102f36f8      0x170 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_AlarmRing
+                0x102f3868       0x28
+ .text.OnURCHandler_AlarmRing
+                0x102f3868       0x28 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_InitStat
+                0x102f3890       0x64
+ .text.OnURCHandler_InitStat
+                0x102f3890       0x64 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_CFUN
+                0x102f38f4       0xc0
+ .text.OnURCHandler_CFUN
+                0x102f38f4       0xc0 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_Voltage
+                0x102f39b4       0x9c
+ .text.OnURCHandler_Voltage
+                0x102f39b4       0x9c build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_Network
+                0x102f3a50      0x178
+ .text.OnURCHandler_Network
+                0x102f3a50      0x178 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_Call
+                0x102f3bc8      0x274
+ .text.OnURCHandler_Call
+                0x102f3bc8      0x274 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_SIM
+                0x102f3e3c      0x100
+ .text.OnURCHandler_SIM
+                0x102f3e3c      0x100 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler_SMS
+                0x102f3f3c      0x138
+ .text.OnURCHandler_SMS
+                0x102f3f3c      0x138 build\gcc\obj/ril/src/ril_urc.o
+
+.text.OnURCHandler
+                0x102f4074       0xbc
+ .text.OnURCHandler
+                0x102f4074       0xbc build\gcc\obj/ril/src/ril_urc.o
+                0x102f4074                OnURCHandler
+
+.text.Ql_RIL_IsURCStr
+                0x102f4130       0x84
+ .text.Ql_RIL_IsURCStr
+                0x102f4130       0x84 build\gcc\obj/ril/src/ril_urc.o
+                0x102f4130                Ql_RIL_IsURCStr
+
+.text.Ql_StrPrefixMatch
+                0x102f41b4       0x40
+ .text.Ql_StrPrefixMatch
+                0x102f41b4       0x40 build\gcc\obj/ril/src/ril_util.o
+                0x102f41b4                Ql_StrPrefixMatch
+
+.text.Ql_StrToUpper
+                0x102f41f4       0x44
+ .text.Ql_StrToUpper
+                0x102f41f4       0x44 build\gcc\obj/ril/src/ril_util.o
+                0x102f41f4                Ql_StrToUpper
+
+.text.Ql_RIL_FindString
+                0x102f4238       0x8c
+ .text.Ql_RIL_FindString
+                0x102f4238       0x8c build\gcc\obj/ril/src/ril_util.o
+                0x102f4238                Ql_RIL_FindString
+
+.text.Ql_RIL_FindLine
+                0x102f42c4      0x274
+ .text.Ql_RIL_FindLine
+                0x102f42c4      0x274 build\gcc\obj/ril/src/ril_util.o
+                0x102f42c4                Ql_RIL_FindLine
+
+.text.Ql_GenHash
+                0x102f4538       0x4c
+ .text.Ql_GenHash
+                0x102f4538       0x4c build\gcc\obj/ril/src/ril_util.o
+                0x102f4538                Ql_GenHash
+
+.text.FTP_Callback_OnDownload
+                0x102f4584      0x580
+ .text.FTP_Callback_OnDownload
+                0x102f4584      0x580 build\gcc\obj/custom/fota/src/fota_ftp.o
+                0x102f4584                FTP_Callback_OnDownload
+
+.text.FTP_FotaMain
+                0x102f4b04      0x98c
+ .text.FTP_FotaMain
+                0x102f4b04      0x98c build\gcc\obj/custom/fota/src/fota_ftp.o
+                0x102f4b04                FTP_FotaMain
+
+.text.FTP_IsFtpServer
+                0x102f5490       0x50
+ .text.FTP_IsFtpServer
+                0x102f5490       0x50 build\gcc\obj/custom/fota/src/fota_ftp.o
+                0x102f5490                FTP_IsFtpServer
+
+.text.Fota_Upgrade_States
+                0x102f54e0      0x16c
+ .text.Fota_Upgrade_States
+                0x102f54e0      0x16c build\gcc\obj/custom/fota/src/fota_main.o
+
+.text.Ql_FOTA_StartUpgrade
+                0x102f564c      0x194
+ .text.Ql_FOTA_StartUpgrade
+                0x102f564c      0x194 build\gcc\obj/custom/fota/src/fota_main.o
+                0x102f564c                Ql_FOTA_StartUpgrade
+
+.text.bma_i2c_write_block
+                0x102f57e0       0xbc
+ .text.bma_i2c_write_block
+                0x102f57e0       0xbc build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+
+.text.bma_i2c_read_block
+                0x102f589c       0xf4
+ .text.bma_i2c_read_block
+                0x102f589c       0xf4 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+
+.text.BMA222_SetPowerMode
+                0x102f5990      0x254
+ .text.BMA222_SetPowerMode
+                0x102f5990      0x254 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+
+.text.bma_i2c_init
+                0x102f5be4      0x158
+ .text.bma_i2c_init
+                0x102f5be4      0x158 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+                0x102f5be4                bma_i2c_init
+
+.text.hwmsen_write_byte
+                0x102f5d3c       0xa0
+ .text.hwmsen_write_byte
+                0x102f5d3c       0xa0 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+                0x102f5d3c                hwmsen_write_byte
+
+.text.BMA22x_CheckDeviceID
+                0x102f5ddc       0xe0
+ .text.BMA22x_CheckDeviceID
+                0x102f5ddc       0xe0 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+                0x102f5ddc                BMA22x_CheckDeviceID
+
+.text.bma222_init_client
+                0x102f5ebc      0x3a0
+ .text.bma222_init_client
+                0x102f5ebc      0x3a0 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+                0x102f5ebc                bma222_init_client
+
+.text.BMA250_ReadSensorData
+                0x102f625c      0x22c
+ .text.BMA250_ReadSensorData
+                0x102f625c      0x22c build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+                0x102f625c                BMA250_ReadSensorData
+
+.text.BMA250_Sleep
+                0x102f6488       0xb4
+ .text.BMA250_Sleep
+                0x102f6488       0xb4 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+                0x102f6488                BMA250_Sleep
+
+.text.M203C_send_Btcmd
+                0x102f653c       0xf0
+ .text.M203C_send_Btcmd
+                0x102f653c       0xf0 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f653c                M203C_send_Btcmd
+
+.text.CheckBtPower
+                0x102f662c       0x4c
+ .text.CheckBtPower
+                0x102f662c       0x4c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f662c                CheckBtPower
+
+.text.CheckBtSerName
+                0x102f6678       0xa0
+ .text.CheckBtSerName
+                0x102f6678       0xa0 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f6678                CheckBtSerName
+
+.text.CheckBtClientName
+                0x102f6718       0xa0
+ .text.CheckBtClientName
+                0x102f6718       0xa0 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f6718                CheckBtClientName
+
+.text.Bt_SerInit
+                0x102f67b8       0x5c
+ .text.Bt_SerInit
+                0x102f67b8       0x5c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f67b8                Bt_SerInit
+
+.text.Bt_ClientInit
+                0x102f6814       0x5c
+ .text.Bt_ClientInit
+                0x102f6814       0x5c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f6814                Bt_ClientInit
+
+.text.ZFBtAsysData
+                0x102f6870       0x24
+ .text.ZFBtAsysData
+                0x102f6870       0x24 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f6870                ZFBtAsysData
+
+.text.BtNewInit
+                0x102f6894       0x7c
+ .text.BtNewInit
+                0x102f6894       0x7c build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0x102f6894                BtNewInit
+
+.text.SaveDataConfig2Flash
+                0x102f6910       0x98
+ .text.SaveDataConfig2Flash
+                0x102f6910       0x98 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+                0x102f6910                SaveDataConfig2Flash
+
+.text.ReadFlashParamsNew
+                0x102f69a8      0x124
+ .text.ReadFlashParamsNew
+                0x102f69a8      0x124 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+                0x102f69a8                ReadFlashParamsNew
+
+.text.SaveFlashParamsNew
+                0x102f6acc       0x98
+ .text.SaveFlashParamsNew
+                0x102f6acc       0x98 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+                0x102f6acc                SaveFlashParamsNew
+
+.text.CreatNewFlashFile
+                0x102f6b64      0x164
+ .text.CreatNewFlashFile
+                0x102f6b64      0x164 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+                0x102f6b64                CreatNewFlashFile
+
+.text.SaveData2Flash
+                0x102f6cc8      0x104
+ .text.SaveData2Flash
+                0x102f6cc8      0x104 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+                0x102f6cc8                SaveData2Flash
+
+.text.LoadDataFromFlash
+                0x102f6dcc       0xbc
+ .text.LoadDataFromFlash
+                0x102f6dcc       0xbc build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+                0x102f6dcc                LoadDataFromFlash
+
+.text.NMEA_Pow.constprop.0
+                0x102f6e88       0x28
+ .text.NMEA_Pow.constprop.0
+                0x102f6e88       0x28 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+
+.text.GetLocationValue
+                0x102f6eb0      0x174
+ .text.GetLocationValue
+                0x102f6eb0      0x174 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f6eb0                GetLocationValue
+
+.text.GetLbsData
+                0x102f7024       0x38
+ .text.GetLbsData
+                0x102f7024       0x38 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f7024                GetLbsData
+
+.text.GetGpsData
+                0x102f705c       0x28
+ .text.GetGpsData
+                0x102f705c       0x28 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f705c                GetGpsData
+
+.text.GetGpsDataNCentS
+                0x102f7084       0x6c
+ .text.GetGpsDataNCentS
+                0x102f7084       0x6c build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f7084                GetGpsDataNCentS
+
+.text.GetCsQ    0x102f70f0       0x28
+ .text.GetCsQ   0x102f70f0       0x28 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f70f0                GetCsQ
+
+.text.GetVol    0x102f7118       0x4c
+ .text.GetVol   0x102f7118       0x4c build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f7118                GetVol
+
+.text.NMEA_Str2num
+                0x102f7164      0x12c
+ .text.NMEA_Str2num
+                0x102f7164      0x12c build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f7164                NMEA_Str2num
+
+.text.NMEA_Comma_Pos
+                0x102f7290       0x50
+ .text.NMEA_Comma_Pos
+                0x102f7290       0x50 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f7290                NMEA_Comma_Pos
+
+.text.NMEA_GPRMC_Analysis
+                0x102f72e0      0x3cc
+ .text.NMEA_GPRMC_Analysis
+                0x102f72e0      0x3cc build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f72e0                NMEA_GPRMC_Analysis
+
+.text.GPS_Analysis
+                0x102f76ac       0x14
+ .text.GPS_Analysis
+                0x102f76ac       0x14 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f76ac                GPS_Analysis
+
+.text.GpsAnalysis
+                0x102f76c0       0x20
+ .text.GpsAnalysis
+                0x102f76c0       0x20 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f76c0                GpsAnalysis
+
+.text.GPS_package
+                0x102f76e0      0x318
+ .text.GPS_package
+                0x102f76e0      0x318 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f76e0                GPS_package
+
+.text.AsysLbs   0x102f79f8       0xd8
+ .text.AsysLbs  0x102f79f8       0xd8 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0x102f79f8                AsysLbs
+
+.text.ftp_downfile_timer.isra.0
+                0x102f7ad0       0xc4
+ .text.ftp_downfile_timer.isra.0
+                0x102f7ad0       0xc4 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+
+.text.proc_main_task
+                0x102f7b94      0x4e8
+ .text.proc_main_task
+                0x102f7b94      0x4e8 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                0x102f7b94                proc_main_task
+
+.text.proc_subtask1
+                0x102f807c      0x9d0
+ .text.proc_subtask1
+                0x102f807c      0x9d0 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                0x102f807c                proc_subtask1
+
+.text.proc_subtask2
+                0x102f8a4c      0x328
+ .text.proc_subtask2
+                0x102f8a4c      0x328 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                0x102f8a4c                proc_subtask2
+
+.text.proc_subtask3
+                0x102f8d74      0x1e0
+ .text.proc_subtask3
+                0x102f8d74      0x1e0 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                0x102f8d74                proc_subtask3
+
+.text.proc_subtask4
+                0x102f8f54       0x58
+ .text.proc_subtask4
+                0x102f8f54       0x58 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                0x102f8f54                proc_subtask4
+
+.text.proc_subtask5
+                0x102f8fac      0x120
+ .text.proc_subtask5
+                0x102f8fac      0x120 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                0x102f8fac                proc_subtask5
+
+.text.GetImei   0x102f90cc       0x34
+ .text.GetImei  0x102f90cc       0x34 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f90cc                GetImei
+
+.text.M203C_send_cmd
+                0x102f9100       0xd4
+ .text.M203C_send_cmd
+                0x102f9100       0xd4 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9100                M203C_send_cmd
+
+.text.M203C_send_Epocmd
+                0x102f91d4       0xd4
+ .text.M203C_send_Epocmd
+                0x102f91d4       0xd4 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f91d4                M203C_send_Epocmd
+
+.text.M203C_send_Abnormalcmd
+                0x102f92a8       0xd4
+ .text.M203C_send_Abnormalcmd
+                0x102f92a8       0xd4 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f92a8                M203C_send_Abnormalcmd
+
+.text.M203C_GetNetStsu
+                0x102f937c       0x58
+ .text.M203C_GetNetStsu
+                0x102f937c       0x58 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f937c                M203C_GetNetStsu
+
+.text.M203C_init
+                0x102f93d4      0x1ac
+ .text.M203C_init
+                0x102f93d4      0x1ac build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f93d4                M203C_init
+
+.text.M203C_gprs_init
+                0x102f9580       0xd0
+ .text.M203C_gprs_init
+                0x102f9580       0xd0 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9580                M203C_gprs_init
+
+.text.M203C_Ch2Gprs
+                0x102f9650       0x34
+ .text.M203C_Ch2Gprs
+                0x102f9650       0x34 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9650                M203C_Ch2Gprs
+
+.text.DisconnectSocket
+                0x102f9684       0x64
+ .text.DisconnectSocket
+                0x102f9684       0x64 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9684                DisconnectSocket
+
+.text.M203C_tcpudp_conncet
+                0x102f96e8      0x12c
+ .text.M203C_tcpudp_conncet
+                0x102f96e8      0x12c build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f96e8                M203C_tcpudp_conncet
+
+.text.M203CSendDataNoAck
+                0x102f9814      0x178
+ .text.M203CSendDataNoAck
+                0x102f9814      0x178 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9814                M203CSendDataNoAck
+
+.text.M203CSendDataCheckOK
+                0x102f998c       0x5c
+ .text.M203CSendDataCheckOK
+                0x102f998c       0x5c build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f998c                M203CSendDataCheckOK
+
+.text.GetGsmCsq
+                0x102f99e8       0x24
+ .text.GetGsmCsq
+                0x102f99e8       0x24 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f99e8                GetGsmCsq
+
+.text.GetModuVol
+                0x102f9a0c       0x24
+ .text.GetModuVol
+                0x102f9a0c       0x24 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9a0c                GetModuVol
+
+.text.mystrcpy  0x102f9a30       0xa8
+ .text.mystrcpy
+                0x102f9a30       0xa8 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9a30                mystrcpy
+
+.text.AysConet2Core
+                0x102f9ad8      0xf7c
+ .text.AysConet2Core
+                0x102f9ad8      0xf7c build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102f9ad8                AysConet2Core
+
+.text.IsHaveLbsData
+                0x102faa54       0x10
+ .text.IsHaveLbsData
+                0x102faa54       0x10 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102faa54                IsHaveLbsData
+
+.text.M203C_EPO_Init
+                0x102faa64      0x12c
+ .text.M203C_EPO_Init
+                0x102faa64      0x12c build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102faa64                M203C_EPO_Init
+
+.text.GetSnFromSocket
+                0x102fab90      0x1a8
+ .text.GetSnFromSocket
+                0x102fab90      0x1a8 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0x102fab90                GetSnFromSocket
+
+.text.Callback_OnADCSampling
+                0x102fad38      0x100
+ .text.Callback_OnADCSampling
+                0x102fad38      0x100 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+
+.text.power_drv_init
+                0x102fae38      0x1c8
+ .text.power_drv_init
+                0x102fae38      0x1c8 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fae38                power_drv_init
+
+.text.ADC_Program
+                0x102fb000       0x54
+ .text.ADC_Program
+                0x102fb000       0x54 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb000                ADC_Program
+
+.text.StrToHex  0x102fb054       0x6c
+ .text.StrToHex
+                0x102fb054       0x6c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb054                StrToHex
+
+.text.InternetsetSN_AnalysisFor808
+                0x102fb0c0       0x34
+ .text.InternetsetSN_AnalysisFor808
+                0x102fb0c0       0x34 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb0c0                InternetsetSN_AnalysisFor808
+
+.text.LoadDefualtCfg
+                0x102fb0f4      0x13c
+ .text.LoadDefualtCfg
+                0x102fb0f4      0x13c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb0f4                LoadDefualtCfg
+
+.text.ShowSysInfo
+                0x102fb230      0x4f0
+ .text.ShowSysInfo
+                0x102fb230      0x4f0 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb230                ShowSysInfo
+
+.text.FlashTimeInit
+                0x102fb720       0x7c
+ .text.FlashTimeInit
+                0x102fb720       0x7c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb720                FlashTimeInit
+
+.text.IsSnHavaSet
+                0x102fb79c       0x3c
+ .text.IsSnHavaSet
+                0x102fb79c       0x3c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb79c                IsSnHavaSet
+
+.text.CheckBattaryS
+                0x102fb7d8       0x44
+ .text.CheckBattaryS
+                0x102fb7d8       0x44 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb7d8                CheckBattaryS
+
+.text.CheckSDDATA
+                0x102fb81c       0x8c
+ .text.CheckSDDATA
+                0x102fb81c       0x8c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb81c                CheckSDDATA
+
+.text.CheckFlashData2Send
+                0x102fb8a8      0x1ac
+ .text.CheckFlashData2Send
+                0x102fb8a8      0x1ac build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fb8a8                CheckFlashData2Send
+
+.text.AynsCmd   0x102fba54      0x15c
+ .text.AynsCmd  0x102fba54      0x15c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fba54                AynsCmd
+
+.text.SendNumFromPin
+                0x102fbbb0       0xbc
+ .text.SendNumFromPin
+                0x102fbbb0       0xbc build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fbbb0                SendNumFromPin
+
+.text.WZinit    0x102fbc6c       0x84
+ .text.WZinit   0x102fbc6c       0x84 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fbc6c                WZinit
+
+.text.WZAddOne  0x102fbcf0       0x54
+ .text.WZAddOne
+                0x102fbcf0       0x54 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fbcf0                WZAddOne
+
+.text.WZSubOne  0x102fbd44       0x54
+ .text.WZSubOne
+                0x102fbd44       0x54 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fbd44                WZSubOne
+
+.text.WZAysCuurtSta
+                0x102fbd98       0x94
+ .text.WZAysCuurtSta
+                0x102fbd98       0x94 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fbd98                WZAysCuurtSta
+
+.text.SYS_Parameter_Init
+                0x102fbe2c      0x144
+ .text.SYS_Parameter_Init
+                0x102fbe2c      0x144 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0x102fbe2c                SYS_Parameter_Init
+
+.text.RTC_Set_UTC
+                0x102fbf70      0x114
+ .text.RTC_Set_UTC
+                0x102fbf70      0x114 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0x102fbf70                RTC_Set_UTC
+
+.text.SetSysTime
+                0x102fc084       0x4c
+ .text.SetSysTime
+                0x102fc084       0x4c build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0x102fc084                SetSysTime
+
+.text.GetSysTime
+                0x102fc0d0       0x4c
+ .text.GetSysTime
+                0x102fc0d0       0x4c build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0x102fc0d0                GetSysTime
+
+.text.StRTC_Set
+                0x102fc11c       0x38
+ .text.StRTC_Set
+                0x102fc11c       0x38 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0x102fc11c                StRTC_Set
+
+.text.StRTC_Get
+                0x102fc154       0x1c
+ .text.StRTC_Get
+                0x102fc154       0x1c build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0x102fc154                StRTC_Get
+
+.text.ChLoc2Utc
+                0x102fc170       0x6c
+ .text.ChLoc2Utc
+                0x102fc170       0x6c build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0x102fc170                ChLoc2Utc
+
+.text.SetUtc2Modu
+                0x102fc1dc       0x64
+ .text.SetUtc2Modu
+                0x102fc1dc       0x64 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0x102fc1dc                SetUtc2Modu
+
+.text.AysOtherData
+                0x102fc240      0x948
+ .text.AysOtherData
+                0x102fc240      0x948 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fc240                AysOtherData
+
+.text.FotaInit  0x102fcb88       0x24
+ .text.FotaInit
+                0x102fcb88       0x24 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fcb88                FotaInit
+
+.text.UartInit  0x102fcbac       0x60
+ .text.UartInit
+                0x102fcbac       0x60 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fcbac                UartInit
+
+.text.VIRTUAL_PORT1Init
+                0x102fcc0c       0x5c
+ .text.VIRTUAL_PORT1Init
+                0x102fcc0c       0x5c build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fcc0c                VIRTUAL_PORT1Init
+
+.text.Get_Str_Use
+                0x102fcc68       0x4c
+ .text.Get_Str_Use
+                0x102fcc68       0x4c build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fcc68                Get_Str_Use
+
+.text.mid       0x102fccb4       0x70
+ .text.mid      0x102fccb4       0x70 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fccb4                mid
+
+.text.DeleteMid
+                0x102fcd24       0xbc
+ .text.DeleteMid
+                0x102fcd24       0xbc build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fcd24                DeleteMid
+
+.text.GetTime2Use
+                0x102fcde0      0x14c
+ .text.GetTime2Use
+                0x102fcde0      0x14c build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fcde0                GetTime2Use
+
+.text.User_Commad_Ays
+                0x102fcf2c     0x1948
+ .text.User_Commad_Ays
+                0x102fcf2c     0x1948 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0x102fcf2c                User_Commad_Ays
+
+.text.Callback_UART_Hdlr
+                0x102fe874       0xd8
+ .text.Callback_UART_Hdlr
+                0x102fe874       0xd8 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+
+.text.Ch2Protocol
+                0x102fe94c      0x1c4
+ .text.Ch2Protocol
+                0x102fe94c      0x1c4 build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+                0x102fe94c                Ch2Protocol
+
+.text.SendMsg2HalDoHd
+                0x102feb10      0x1f0
+ .text.SendMsg2HalDoHd
+                0x102feb10      0x1f0 build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+                0x102feb10                SendMsg2HalDoHd
+
+.text.SDI_CRC16
+                0x102fed00       0x44
+ .text.SDI_CRC16
+                0x102fed00       0x44 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fed00                SDI_CRC16
+
+.text.Dec2Hex   0x102fed44       0x50
+ .text.Dec2Hex  0x102fed44       0x50 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fed44                Dec2Hex
+
+.text.Hex2Dec   0x102fed94       0x50
+ .text.Hex2Dec  0x102fed94       0x50 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fed94                Hex2Dec
+
+.text.Head_Init
+                0x102fede4       0xa0
+ .text.Head_Init
+                0x102fede4       0xa0 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fede4                Head_Init
+
+.text.Length_Init
+                0x102fee84       0x18
+ .text.Length_Init
+                0x102fee84       0x18 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fee84                Length_Init
+
+.text.Tlv_Init  0x102fee9c       0x78
+ .text.Tlv_Init
+                0x102fee9c       0x78 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fee9c                Tlv_Init
+
+.text.ProIdInit
+                0x102fef14       0x60
+ .text.ProIdInit
+                0x102fef14       0x60 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fef14                ProIdInit
+
+.text.ProTimeInit
+                0x102fef74       0x80
+ .text.ProTimeInit
+                0x102fef74       0x80 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102fef74                ProTimeInit
+
+.text.ProSigStInit
+                0x102feff4       0x40
+ .text.ProSigStInit
+                0x102feff4       0x40 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102feff4                ProSigStInit
+
+.text.ProSigEndInit
+                0x102ff034       0x40
+ .text.ProSigEndInit
+                0x102ff034       0x40 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff034                ProSigEndInit
+
+.text.ProCrcInit
+                0x102ff074       0x68
+ .text.ProCrcInit
+                0x102ff074       0x68 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff074                ProCrcInit
+
+.text.ProPasswdInit
+                0x102ff0dc       0x6c
+ .text.ProPasswdInit
+                0x102ff0dc       0x6c build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff0dc                ProPasswdInit
+
+.text.PkInit    0x102ff148       0xac
+ .text.PkInit   0x102ff148       0xac build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff148                PkInit
+
+.text.SnsInit   0x102ff1f4       0x34
+ .text.SnsInit  0x102ff1f4       0x34 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff1f4                SnsInit
+
+.text.ProKeyInit
+                0x102ff228      0x1e4
+ .text.ProKeyInit
+                0x102ff228      0x1e4 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff228                ProKeyInit
+
+.text.FirstonthelineInit
+                0x102ff40c       0xe4
+ .text.FirstonthelineInit
+                0x102ff40c       0xe4 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff40c                FirstonthelineInit
+
+.text.TlvInitList
+                0x102ff4f0       0x24
+ .text.TlvInitList
+                0x102ff4f0       0x24 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff4f0                TlvInitList
+
+.text.JsVersion
+                0x102ff514       0x44
+ .text.JsVersion
+                0x102ff514       0x44 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff514                JsVersion
+
+.text.JsLength  0x102ff558       0x24
+ .text.JsLength
+                0x102ff558       0x24 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff558                JsLength
+
+.text.JsCrcCode
+                0x102ff57c       0x54
+ .text.JsCrcCode
+                0x102ff57c       0x54 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff57c                JsCrcCode
+
+.text.Tlv_IdAnalys
+                0x102ff5d0       0x14
+ .text.Tlv_IdAnalys
+                0x102ff5d0       0x14 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff5d0                Tlv_IdAnalys
+
+.text.Tlv_StartAnalys
+                0x102ff5e4       0x68
+ .text.Tlv_StartAnalys
+                0x102ff5e4       0x68 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff5e4                Tlv_StartAnalys
+
+.text.Tlv_PawssAnalys
+                0x102ff64c      0x1fc
+ .text.Tlv_PawssAnalys
+                0x102ff64c      0x1fc build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff64c                Tlv_PawssAnalys
+
+.text.Tlv_BufAnalys
+                0x102ff848       0x88
+ .text.Tlv_BufAnalys
+                0x102ff848       0x88 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff848                Tlv_BufAnalys
+
+.text.AddTlvCmd2List
+                0x102ff8d0      0x220
+ .text.AddTlvCmd2List
+                0x102ff8d0      0x220 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ff8d0                AddTlvCmd2List
+
+.text.ProRWValuesInit
+                0x102ffaf0       0x64
+ .text.ProRWValuesInit
+                0x102ffaf0       0x64 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ffaf0                ProRWValuesInit
+
+.text.Reply2Server
+                0x102ffb54       0xdc
+ .text.Reply2Server
+                0x102ffb54       0xdc build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ffb54                Reply2Server
+
+.text.ChckAutoReCmd
+                0x102ffc30       0x94
+ .text.ChckAutoReCmd
+                0x102ffc30       0x94 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ffc30                ChckAutoReCmd
+
+.text.BufAnalys
+                0x102ffcc4      0x660
+ .text.BufAnalys
+                0x102ffcc4      0x660 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x102ffcc4                BufAnalys
+
+.text.DataCore  0x10300324      0x250
+ .text.DataCore
+                0x10300324      0x250 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x10300324                DataCore
+
+.text.ReSetDataInitNew
+                0x10300574       0xd8
+ .text.ReSetDataInitNew
+                0x10300574       0xd8 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x10300574                ReSetDataInitNew
+
+.text.IsFtpUrlOK
+                0x1030064c       0x64
+ .text.IsFtpUrlOK
+                0x1030064c       0x64 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x1030064c                IsFtpUrlOK
+
+.text.Recive_OutData
+                0x103006b0      0x204
+ .text.Recive_OutData
+                0x103006b0      0x204 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x103006b0                Recive_OutData
+
+.text.ProValuesInit_v2
+                0x103008b4       0xf4
+ .text.ProValuesInit_v2
+                0x103008b4       0xf4 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x103008b4                ProValuesInit_v2
+
+.text.CoreDataInit_v2
+                0x103009a8       0xb0
+ .text.CoreDataInit_v2
+                0x103009a8       0xb0 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0x103009a8                CoreDataInit_v2
+
+.text.Ql_ADC_Register
+                0x10300a58       0x70
+ .text.Ql_ADC_Register
+                0x10300a58       0x70 libs/gcc/app_start.lib(adc.o)
+                0x10300a58                Ql_ADC_Register
+
+.text.Ql_ADC_Init
+                0x10300ac8       0x70
+ .text.Ql_ADC_Init
+                0x10300ac8       0x70 libs/gcc/app_start.lib(adc.o)
+                0x10300ac8                Ql_ADC_Init
+
+.text.Ql_ADC_Sampling
+                0x10300b38       0x68
+ .text.Ql_ADC_Sampling
+                0x10300b38       0x68 libs/gcc/app_start.lib(adc.o)
+                0x10300b38                Ql_ADC_Sampling
+
+.text.Ql_FS_Open
+                0x10300ba0       0x68
+ .text.Ql_FS_Open
+                0x10300ba0       0x68 libs/gcc/app_start.lib(fileSys.o)
+                0x10300ba0                Ql_FS_Open
+
+.text.Ql_FS_OpenRAMFile
+                0x10300c08       0x70
+ .text.Ql_FS_OpenRAMFile
+                0x10300c08       0x70 libs/gcc/app_start.lib(fileSys.o)
+                0x10300c08                Ql_FS_OpenRAMFile
+
+.text.Ql_FS_Read
+                0x10300c78       0x78
+ .text.Ql_FS_Read
+                0x10300c78       0x78 libs/gcc/app_start.lib(fileSys.o)
+                0x10300c78                Ql_FS_Read
+
+.text.Ql_FS_Write
+                0x10300cf0       0x78
+ .text.Ql_FS_Write
+                0x10300cf0       0x78 libs/gcc/app_start.lib(fileSys.o)
+                0x10300cf0                Ql_FS_Write
+
+.text.Ql_FS_Seek
+                0x10300d68       0x70
+ .text.Ql_FS_Seek
+                0x10300d68       0x70 libs/gcc/app_start.lib(fileSys.o)
+                0x10300d68                Ql_FS_Seek
+
+.text.Ql_FS_Flush
+                0x10300dd8       0x54
+ .text.Ql_FS_Flush
+                0x10300dd8       0x54 libs/gcc/app_start.lib(fileSys.o)
+                0x10300dd8                Ql_FS_Flush
+
+.text.Ql_FS_Close
+                0x10300e2c       0x54
+ .text.Ql_FS_Close
+                0x10300e2c       0x54 libs/gcc/app_start.lib(fileSys.o)
+                0x10300e2c                Ql_FS_Close
+
+.text.Ql_FS_GetSize
+                0x10300e80       0x60
+ .text.Ql_FS_GetSize
+                0x10300e80       0x60 libs/gcc/app_start.lib(fileSys.o)
+                0x10300e80                Ql_FS_GetSize
+
+.text.Ql_FS_Delete
+                0x10300ee0       0x60
+ .text.Ql_FS_Delete
+                0x10300ee0       0x60 libs/gcc/app_start.lib(fileSys.o)
+                0x10300ee0                Ql_FS_Delete
+
+.text.Ql_FS_Check
+                0x10300f40       0x60
+ .text.Ql_FS_Check
+                0x10300f40       0x60 libs/gcc/app_start.lib(fileSys.o)
+                0x10300f40                Ql_FS_Check
+
+.text.Ql_FS_CreateDir
+                0x10300fa0       0x60
+ .text.Ql_FS_CreateDir
+                0x10300fa0       0x60 libs/gcc/app_start.lib(fileSys.o)
+                0x10300fa0                Ql_FS_CreateDir
+
+.text.Ql_FS_CheckDir
+                0x10301000       0x60
+ .text.Ql_FS_CheckDir
+                0x10301000       0x60 libs/gcc/app_start.lib(fileSys.o)
+                0x10301000                Ql_FS_CheckDir
+
+.text.Ql_FOTA_Init
+                0x10301060       0x60
+ .text.Ql_FOTA_Init
+                0x10301060       0x60 libs/gcc/app_start.lib(fota.o)
+                0x10301060                Ql_FOTA_Init
+
+.text.Ql_FOTA_WriteData
+                0x103010c0       0x68
+ .text.Ql_FOTA_WriteData
+                0x103010c0       0x68 libs/gcc/app_start.lib(fota.o)
+                0x103010c0                Ql_FOTA_WriteData
+
+.text.Ql_FOTA_Finish
+                0x10301128       0x58
+ .text.Ql_FOTA_Finish
+                0x10301128       0x58 libs/gcc/app_start.lib(fota.o)
+                0x10301128                Ql_FOTA_Finish
+
+.text.Ql_FOTA_Update
+                0x10301180       0x58
+ .text.Ql_FOTA_Update
+                0x10301180       0x58 libs/gcc/app_start.lib(fota.o)
+                0x10301180                Ql_FOTA_Update
+
+.text.Ql_GPIO_Init
+                0x103011d8       0x78
+ .text.Ql_GPIO_Init
+                0x103011d8       0x78 libs/gcc/app_start.lib(gpio.o)
+                0x103011d8                Ql_GPIO_Init
+
+.text.Ql_GPIO_SetLevel
+                0x10301250       0x68
+ .text.Ql_GPIO_SetLevel
+                0x10301250       0x68 libs/gcc/app_start.lib(gpio.o)
+                0x10301250                Ql_GPIO_SetLevel
+
+.text.Ql_GPIO_GetLevel
+                0x103012b8       0x60
+ .text.Ql_GPIO_GetLevel
+                0x103012b8       0x60 libs/gcc/app_start.lib(gpio.o)
+                0x103012b8                Ql_GPIO_GetLevel
+
+.text.Ql_GPRS_GetPDPCntxtState
+                0x10301318       0x60
+ .text.Ql_GPRS_GetPDPCntxtState
+                0x10301318       0x60 libs/gcc/app_start.lib(gprs.o)
+                0x10301318                Ql_GPRS_GetPDPCntxtState
+
+.text.Ql_GPRS_GetPDPContextId
+                0x10301378       0x60
+ .text.Ql_GPRS_GetPDPContextId
+                0x10301378       0x60 libs/gcc/app_start.lib(gprs.o)
+                0x10301378                Ql_GPRS_GetPDPContextId
+
+.text.Ql_IIC_Init
+                0x103013d8       0x78
+ .text.Ql_IIC_Init
+                0x103013d8       0x78 libs/gcc/app_start.lib(iic.o)
+                0x103013d8                Ql_IIC_Init
+
+.text.Ql_IIC_Config
+                0x10301450       0x78
+ .text.Ql_IIC_Config
+                0x10301450       0x78 libs/gcc/app_start.lib(iic.o)
+                0x10301450                Ql_IIC_Config
+
+.text.Ql_IIC_Write
+                0x103014c8       0x78
+ .text.Ql_IIC_Write
+                0x103014c8       0x78 libs/gcc/app_start.lib(iic.o)
+                0x103014c8                Ql_IIC_Write
+
+.text.Ql_IIC_Read
+                0x10301540       0x78
+ .text.Ql_IIC_Read
+                0x10301540       0x78 libs/gcc/app_start.lib(iic.o)
+                0x10301540                Ql_IIC_Read
+
+.text.Ql_IIC_Write_Read
+                0x103015b8       0x88
+ .text.Ql_IIC_Write_Read
+                0x103015b8       0x88 libs/gcc/app_start.lib(iic.o)
+                0x103015b8                Ql_IIC_Write_Read
+
+.text.Ql_MEM_Alloc
+                0x10301640       0x78
+ .text.Ql_MEM_Alloc
+                0x10301640       0x78 libs/gcc/app_start.lib(memory.o)
+                0x10301640                Ql_MEM_Alloc
+
+.text.Ql_MEM_Free
+                0x103016b8       0x74
+ .text.Ql_MEM_Free
+                0x103016b8       0x74 libs/gcc/app_start.lib(memory.o)
+                0x103016b8                Ql_MEM_Free
+
+.text.Ql_PWM_Init
+                0x1030172c       0x80
+ .text.Ql_PWM_Init
+                0x1030172c       0x80 libs/gcc/app_start.lib(pwm.o)
+                0x1030172c                Ql_PWM_Init
+
+.text.Ql_PWM_Output
+                0x103017ac       0x68
+ .text.Ql_PWM_Output
+                0x103017ac       0x68 libs/gcc/app_start.lib(pwm.o)
+                0x103017ac                Ql_PWM_Output
+
+.text.ql_InitVFunc
+                0x10301814      0x104
+ .text.ql_InitVFunc
+                0x10301814      0x104 libs/gcc/app_start.lib(ql_main.o)
+                0x10301814                ql_InitVFunc
+
+.text.ocpu_main
+                0x10301918       0xf0
+ .text.ocpu_main
+                0x10301918       0xf0 libs/gcc/app_start.lib(ql_main.o)
+                0x10301918                ocpu_main
+
+.text.proc_reserved2
+                0x10301a08       0x70
+ .text.proc_reserved2
+                0x10301a08       0x70 libs/gcc/app_start.lib(ril_aux.o)
+                0x10301a08                proc_reserved2
+
+.text.ril_StopATTimer
+                0x10301a78       0x34
+ .text.ril_StopATTimer
+                0x10301a78       0x34 libs/gcc/app_start.lib(ril_main.o)
+
+.text.Callback_OnATTimer
+                0x10301aac       0x4c
+ .text.Callback_OnATTimer
+                0x10301aac       0x4c libs/gcc/app_start.lib(ril_main.o)
+
+.text.CallBack_SerialPort_Hdlr
+                0x10301af8      0x384
+ .text.CallBack_SerialPort_Hdlr
+                0x10301af8      0x384 libs/gcc/app_start.lib(ril_main.o)
+
+.text.proc_reserved1
+                0x10301e7c      0x200
+ .text.proc_reserved1
+                0x10301e7c      0x200 libs/gcc/app_start.lib(ril_main.o)
+                0x10301e7c                proc_reserved1
+
+.text.Ql_RIL_Initialize
+                0x1030207c       0xd4
+ .text.Ql_RIL_Initialize
+                0x1030207c       0xd4 libs/gcc/app_start.lib(ril_main.o)
+                0x1030207c                Ql_RIL_Initialize
+
+.text.Ql_RIL_SendATCmd
+                0x10302150      0x260
+ .text.Ql_RIL_SendATCmd
+                0x10302150      0x260 libs/gcc/app_start.lib(ril_main.o)
+                0x10302150                Ql_RIL_SendATCmd
+
+.text.Ql_atof   0x103023b0       0x98
+ .text.Ql_atof  0x103023b0       0x98 libs/gcc/app_start.lib(stdlib_func.o)
+                0x103023b0                Ql_atof
+
+.text.Ql_strcpy
+                0x10302448       0xa0
+ .text.Ql_strcpy
+                0x10302448       0xa0 libs/gcc/app_start.lib(stdlib_func.o)
+                0x10302448                Ql_strcpy
+
+.text.Ql_strncpy
+                0x103024e8       0x88
+ .text.Ql_strncpy
+                0x103024e8       0x88 libs/gcc/app_start.lib(stdlib_func.o)
+                0x103024e8                Ql_strncpy
+
+.text.Ql_strlen
+                0x10302570       0x78
+ .text.Ql_strlen
+                0x10302570       0x78 libs/gcc/app_start.lib(stdlib_func.o)
+                0x10302570                Ql_strlen
+
+.text.Ql_strcmp
+                0x103025e8       0x68
+ .text.Ql_strcmp
+                0x103025e8       0x68 libs/gcc/app_start.lib(stdlib_func.o)
+                0x103025e8                Ql_strcmp
+
+.text.Ql_strncmp
+                0x10302650       0x70
+ .text.Ql_strncmp
+                0x10302650       0x70 libs/gcc/app_start.lib(stdlib_func.o)
+                0x10302650                Ql_strncmp
+
+.text.Ql_memset
+                0x103026c0       0x88
+ .text.Ql_memset
+                0x103026c0       0x88 libs/gcc/app_start.lib(stdlib_func.o)
+                0x103026c0                Ql_memset
+
+.text.Ql_memcpy
+                0x10302748       0x88
+ .text.Ql_memcpy
+                0x10302748       0x88 libs/gcc/app_start.lib(stdlib_func.o)
+                0x10302748                Ql_memcpy
+
+.text.Ql_strstr
+                0x103027d0       0x80
+ .text.Ql_strstr
+                0x103027d0       0x80 libs/gcc/app_start.lib(stdlib_func.o)
+                0x103027d0                Ql_strstr
+
+.text.Ql_toupper
+                0x10302850        0x8
+ .text.Ql_toupper
+                0x10302850        0x8 libs/gcc/app_start.lib(stdlib_func.o)
+                0x10302850                Ql_toupper
+
+.text.Ql_tolower
+                0x10302858        0x8
+ .text.Ql_tolower
+                0x10302858        0x8 libs/gcc/app_start.lib(stdlib_func.o)
+                0x10302858                Ql_tolower
+
+.text.Ql_atoi   0x10302860       0x84
+ .text.Ql_atoi  0x10302860       0x84 libs/gcc/app_start.lib(stdlib_func.o)
+                0x10302860                Ql_atoi
+
+.text.Ql_Sleep  0x103028e4       0x74
+ .text.Ql_Sleep
+                0x103028e4       0x74 libs/gcc/app_start.lib(system.o)
+                0x103028e4                Ql_Sleep
+
+.text.Ql_Reset  0x10302958       0x74
+ .text.Ql_Reset
+                0x10302958       0x74 libs/gcc/app_start.lib(system.o)
+                0x10302958                Ql_Reset
+
+.text.Ql_GetSDKVer
+                0x103029cc       0x64
+ .text.Ql_GetSDKVer
+                0x103029cc       0x64 libs/gcc/app_start.lib(system.o)
+                0x103029cc                Ql_GetSDKVer
+
+.text.Ql_OS_GetMessage
+                0x10302a30       0x60
+ .text.Ql_OS_GetMessage
+                0x10302a30       0x60 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302a30                Ql_OS_GetMessage
+
+.text.Ql_OS_SendMessage
+                0x10302a90       0x78
+ .text.Ql_OS_SendMessage
+                0x10302a90       0x78 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302a90                Ql_OS_SendMessage
+
+.text.Ql_OS_CreateMutex
+                0x10302b08       0x54
+ .text.Ql_OS_CreateMutex
+                0x10302b08       0x54 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302b08                Ql_OS_CreateMutex
+
+.text.Ql_OS_TakeMutex
+                0x10302b5c       0x54
+ .text.Ql_OS_TakeMutex
+                0x10302b5c       0x54 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302b5c                Ql_OS_TakeMutex
+
+.text.Ql_OS_GiveMutex
+                0x10302bb0       0x54
+ .text.Ql_OS_GiveMutex
+                0x10302bb0       0x54 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302bb0                Ql_OS_GiveMutex
+
+.text.Ql_OS_CreateEvent
+                0x10302c04       0x54
+ .text.Ql_OS_CreateEvent
+                0x10302c04       0x54 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302c04                Ql_OS_CreateEvent
+
+.text.Ql_OS_WaitEvent
+                0x10302c58       0x68
+ .text.Ql_OS_WaitEvent
+                0x10302c58       0x68 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302c58                Ql_OS_WaitEvent
+
+.text.Ql_OS_SetEvent
+                0x10302cc0       0x68
+ .text.Ql_OS_SetEvent
+                0x10302cc0       0x68 libs/gcc/app_start.lib(taskMngt.o)
+                0x10302cc0                Ql_OS_SetEvent
+
+.text.Ql_SetLocalTime
+                0x10302d28       0x60
+ .text.Ql_SetLocalTime
+                0x10302d28       0x60 libs/gcc/app_start.lib(time.o)
+                0x10302d28                Ql_SetLocalTime
+
+.text.Ql_GetLocalTime
+                0x10302d88       0x54
+ .text.Ql_GetLocalTime
+                0x10302d88       0x54 libs/gcc/app_start.lib(time.o)
+                0x10302d88                Ql_GetLocalTime
+
+.text.Ql_Mktime
+                0x10302ddc       0x70
+ .text.Ql_Mktime
+                0x10302ddc       0x70 libs/gcc/app_start.lib(time.o)
+                0x10302ddc                Ql_Mktime
+
+.text.Ql_MKTime2CalendarTime
+                0x10302e4c       0x64
+ .text.Ql_MKTime2CalendarTime
+                0x10302e4c       0x64 libs/gcc/app_start.lib(time.o)
+                0x10302e4c                Ql_MKTime2CalendarTime
+
+.text.Ql_Timer_Register
+                0x10302eb0       0x70
+ .text.Ql_Timer_Register
+                0x10302eb0       0x70 libs/gcc/app_start.lib(timer.o)
+                0x10302eb0                Ql_Timer_Register
+
+.text.Ql_Timer_Start
+                0x10302f20       0x70
+ .text.Ql_Timer_Start
+                0x10302f20       0x70 libs/gcc/app_start.lib(timer.o)
+                0x10302f20                Ql_Timer_Start
+
+.text.Ql_Timer_Stop
+                0x10302f90       0x60
+ .text.Ql_Timer_Stop
+                0x10302f90       0x60 libs/gcc/app_start.lib(timer.o)
+                0x10302f90                Ql_Timer_Stop
+
+.text.Ql_UART_Register
+                0x10302ff0       0x70
+ .text.Ql_UART_Register
+                0x10302ff0       0x70 libs/gcc/app_start.lib(uart.o)
+                0x10302ff0                Ql_UART_Register
+
+.text.Ql_UART_Open
+                0x10303060       0x70
+ .text.Ql_UART_Open
+                0x10303060       0x70 libs/gcc/app_start.lib(uart.o)
+                0x10303060                Ql_UART_Open
+
+.text.Ql_UART_Write
+                0x103030d0       0x70
+ .text.Ql_UART_Write
+                0x103030d0       0x70 libs/gcc/app_start.lib(uart.o)
+                0x103030d0                Ql_UART_Write
+
+.text.Ql_UART_Read
+                0x10303140       0x70
+ .text.Ql_UART_Read
+                0x10303140       0x70 libs/gcc/app_start.lib(uart.o)
+                0x10303140                Ql_UART_Read
+
+.text.Ql_UART_GetPinStatus
+                0x103031b0       0x68
+ .text.Ql_UART_GetPinStatus
+                0x103031b0       0x68 libs/gcc/app_start.lib(uart.o)
+                0x103031b0                Ql_UART_GetPinStatus
+
+.text.Ql_UART_SendEscap
+                0x10303218       0x60
+ .text.Ql_UART_SendEscap
+                0x10303218       0x60 libs/gcc/app_start.lib(uart.o)
+                0x10303218                Ql_UART_SendEscap
+
+.rodata         0x10303278      0xf88
+ *(.rodata)
+ .rodata        0x10303278       0x48 build\gcc\obj/custom/config/custom_sys_cfg.o
+                0x1030327c                SystemCfg
+ .rodata        0x103032c0       0xb8 build\gcc\obj/custom/config/sys_config.o
+                0x103032c0                GpioConfigTbl
+                0x103032c4                TaskConfig
+ .rodata        0x10303378      0x100 build\gcc\obj/ril/src/ril_bluetooth.o
+ .rodata        0x10303478       0x1a build\gcc\obj/ril/src/Ril_dtmf.o
+ .rodata        0x10303492       0x40 build\gcc\obj/ril/src/ril_gps.o
+ .rodata        0x103034d2        0xe build\gcc\obj/ril/src/ril_location.o
+ .rodata        0x103034e0        0xa build\gcc\obj/ril/src/ril_ntp.o
+ *fill*         0x103034ea        0x2 00
+ .rodata        0x103034ec      0x9d8 build\gcc\obj/ril/src/ril_urc.o
+ .rodata        0x10303ec4        0x7 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+ .rodata        0x10303ecb      0x200 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .rodata        0x103040cb       0x16 libs/gcc/app_start.lib(ql_main.o)
+ .rodata        0x103040e1        0x4 libs/gcc/app_start.lib(ril_main.o)
+ .rodata        0x103040e5       0x16 libs/gcc/app_start.lib(system.o)
+ *fill*         0x103040fb        0x1 00
+ .rodata        0x103040fc      0x104 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+                0x103040fc                _ctype_
+
+.rodata.str1.1  0x10304200     0x3349
+ .rodata.str1.1
+                0x10304200       0x25 build\gcc\obj/ril/src/ril_atResponse.o
+                                 0x2e (size before relaxing)
+ .rodata.str1.1
+                0x10304225      0x425 build\gcc\obj/ril/src/ril_ble.o
+                                0x4d2 (size before relaxing)
+ .rodata.str1.1
+                0x1030464a      0x3cb build\gcc\obj/ril/src/ril_bluetooth.o
+                                0x4e3 (size before relaxing)
+ .rodata.str1.1
+                0x10304a15       0xb7 build\gcc\obj/ril/src/Ril_dtmf.o
+                                 0xcc (size before relaxing)
+ .rodata.str1.1
+                0x10304acc      0x255 build\gcc\obj/ril/src/ril_ftp.o
+                                0x27b (size before relaxing)
+ .rodata.str1.1
+                0x10304d21       0x52 build\gcc\obj/ril/src/ril_init.o
+ .rodata.str1.1
+                0x10304d73       0x48 build\gcc\obj/ril/src/ril_location.o
+                                 0x64 (size before relaxing)
+ .rodata.str1.1
+                0x10304dbb       0xe3 build\gcc\obj/ril/src/ril_network.o
+                                0x112 (size before relaxing)
+ .rodata.str1.1
+                0x10304e9e       0x79 build\gcc\obj/ril/src/ril_sim.o
+                                 0xaf (size before relaxing)
+ .rodata.str1.1
+                0x10304f17      0x166 build\gcc\obj/ril/src/ril_urc.o
+                                0x16b (size before relaxing)
+ .rodata.str1.1
+                0x1030507d       0x11 build\gcc\obj/ril/src/ril_util.o
+                                 0x16 (size before relaxing)
+ .rodata.str1.1
+                0x1030508e      0x69a build\gcc\obj/custom/fota/src/fota_ftp.o
+                                0x6a8 (size before relaxing)
+ .rodata.str1.1
+                0x10305728      0x1ea build\gcc\obj/custom/fota/src/fota_main.o
+ .rodata.str1.1
+                0x10305912      0x3e8 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+ .rodata.str1.1
+                0x10305cfa      0x253 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                                0x29a (size before relaxing)
+ .rodata.str1.1
+                0x10305f4d       0x33 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+ .rodata.str1.1
+                0x10305f80       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                                 0x38 (size before relaxing)
+ .rodata.str1.1
+                0x10305fad      0x3e8 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                                0x3e9 (size before relaxing)
+ .rodata.str1.1
+                0x10306395      0x267 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                                0x2ea (size before relaxing)
+ .rodata.str1.1
+                0x103065fc      0x203 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                                0x21e (size before relaxing)
+ .rodata.str1.1
+                0x103067ff       0x34 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                                 0x43 (size before relaxing)
+ .rodata.str1.1
+                0x10306833      0x3c5 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                                0x3de (size before relaxing)
+ .rodata.str1.1
+                0x10306bf8        0x5 build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+                                 0x1c (size before relaxing)
+ .rodata.str1.1
+                0x10306bfd      0x164 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                                0x16c (size before relaxing)
+ .rodata.str1.1
+                0x10306d61       0x2c libs/gcc/app_start.lib(adc.o)
+ .rodata.str1.1
+                0x10306d8d      0x15c libs/gcc/app_start.lib(fileSys.o)
+ .rodata.str1.1
+                0x10306ee9       0x4e libs/gcc/app_start.lib(fota.o)
+ .rodata.str1.1
+                0x10306f37       0x9a libs/gcc/app_start.lib(gpio.o)
+ .rodata.str1.1
+                0x10306fd1       0xcb libs/gcc/app_start.lib(gprs.o)
+ .rodata.str1.1
+                0x1030709c       0x53 libs/gcc/app_start.lib(iic.o)
+ .rodata.str1.1
+                0x103070ef       0x19 libs/gcc/app_start.lib(memory.o)
+ .rodata.str1.1
+                0x10307108       0x28 libs/gcc/app_start.lib(pwm.o)
+ .rodata.str1.1
+                0x10307130       0x51 libs/gcc/app_start.lib(ql_main.o)
+                                 0x56 (size before relaxing)
+ .rodata.str1.1
+                0x10307181       0x1c libs/gcc/app_start.lib(ril_main.o)
+                                 0x25 (size before relaxing)
+ .rodata.str1.1
+                0x1030719d       0xa1 libs/gcc/app_start.lib(stdlib_func.o)
+ .rodata.str1.1
+                0x1030723e       0x3d libs/gcc/app_start.lib(system.o)
+ .rodata.str1.1
+                0x1030727b      0x140 libs/gcc/app_start.lib(taskMngt.o)
+ .rodata.str1.1
+                0x103073bb       0x41 libs/gcc/app_start.lib(time.o)
+ .rodata.str1.1
+                0x103073fc       0x45 libs/gcc/app_start.lib(timer.o)
+ .rodata.str1.1
+                0x10307441      0x108 libs/gcc/app_start.lib(uart.o)
+
+.rodata.str1.4  0x1030754c        0x4
+ .rodata.str1.4
+                0x1030754c        0x4 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+
+.rel.dyn        0x10307550        0x0
+ .rel.iplt      0x00000000        0x0 build\gcc\obj/custom/config/custom_sys_cfg.o
+
+.data           0xf03d2000      0x658 load address 0x10307550
+                0x10307550                PROVIDE (__data_load, LOADADDR (.data))
+                0xf03d2000                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0xf03d2000        0x1 build\gcc\obj/ril/src/ril_bluetooth.o
+ *fill*         0xf03d2001        0x3 00
+ .data          0xf03d2004       0x20 build\gcc\obj/ril/src/ril_init.o
+                0xf03d2004                g_LimitedCmds
+                0xf03d200c                g_InitCmds
+ .data          0xf03d2024       0x65 build\gcc\obj/custom/fota/src/fota_main.o
+                0xf03d2024                Fota_apn
+                0xf03d2088                g_FOTA_State
+ *fill*         0xf03d2089        0x1 00
+ .data          0xf03d208a      0x150 build\gcc\obj/cloud/zyf_app/zyf_config/PRD.o
+                0xf03d208a                AutomaticWRTlv
+                0xf03d20ba                AutomaticRDTlv
+ .data          0xf03d21da        0x1 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+ *fill*         0xf03d21db        0x1 00
+ .data          0xf03d21dc       0x1c build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0xf03d21dc                SystemDebug
+                0xf03d21dd                LED1
+                0xf03d21de                LED2
+                0xf03d21df                LED3
+                0xf03d21e0                M203C_DATA
+                0xf03d21e1                M203C_EINT
+                0xf03d21e2                M203C_WHG
+                0xf03d21e3                ZFGPIO1
+                0xf03d21e4                ZFGPIO2
+                0xf03d21e5                SDDATAIN
+                0xf03d21e6                WZUD
+                0xf03d21e7                WZINS
+                0xf03d21e8                WZCS
+                0xf03d21e9                BATTARYSPIN
+                0xf03d21f0                modetbl
+ .data          0xf03d21f8       0x18 libs/gcc/app_start.lib(ql_func.o)
+                0xf03d21f8                api_notsup
+ .data          0xf03d2210        0x4 libs/gcc/app_start.lib(ril_aux.o)
+                0xf03d2210                g_ril_auxTaskId
+ .data          0xf03d2214       0x10 libs/gcc/app_start.lib(ril_main.o)
+ .data          0xf03d2224        0x4 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+                0xf03d2224                __ctype_ptr__
+ .data          0xf03d2228      0x430 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                0xf03d2228                _impure_ptr
+                0xf03d2658                . = ALIGN (0x8)
+                0xf03d2658                PROVIDE (_edata, .)
+
+.igot.plt       0xf03d2658        0x0 load address 0x10307ba8
+ .igot.plt      0x00000000        0x0 build\gcc\obj/custom/config/custom_sys_cfg.o
+
+.bss            0xf03d2658     0x3e28 load address 0x10307ba8
+                0xf03d2658                PROVIDE (__bss_start__, .)
+ *(.bss)
+ .bss           0xf03d2658        0x4 build\gcc\obj/ril/src/ril_atResponse.o
+ .bss           0xf03d265c        0x4 build\gcc\obj/ril/src/ril_audio.o
+                0xf03d265c                cb_aud_play
+ .bss           0xf03d2660        0x4 build\gcc\obj/ril/src/ril_ble.o
+ .bss           0xf03d2664       0x98 build\gcc\obj/ril/src/ril_bluetooth.o
+ .bss           0xf03d26fc        0x4 build\gcc\obj/ril/src/ril_custom.o
+                0xf03d26fc                cb_rcvCoreData
+ .bss           0xf03d2700       0x10 build\gcc\obj/ril/src/Ril_dtmf.o
+ .bss           0xf03d2710        0x4 build\gcc\obj/ril/src/ril_gps.o
+ .bss           0xf03d2714       0x18 build\gcc\obj/ril/src/ril_http.o
+                0xf03d2718                http_url_addr
+                0xf03d271c                http_url_addr_len
+                0xf03d2720                http_post_msg
+                0xf03d2724                http_post_msg_len
+                0xf03d2728                callback_http_dwnld
+ .bss           0xf03d272c        0x4 build\gcc\obj/ril/src/ril_location.o
+ .bss           0xf03d2730        0x4 build\gcc\obj/ril/src/ril_ntp.o
+ .bss           0xf03d2734        0x8 build\gcc\obj/ril/src/ril_urc.o
+                0xf03d2734                FtpGet_IND_CB
+                0xf03d2738                FtpPut_IND_CB
+ .bss           0xf03d273c       0xb0 build\gcc\obj/custom/fota/src/fota_ftp.o
+ .bss           0xf03d27ec       0x44 build\gcc\obj/custom/fota/src/fota_main.o
+                0xf03d27ec                Fota_UpgardeState
+                0xf03d27f0                Fota_passwd
+                0xf03d2810                Fota_userid
+ .bss           0xf03d2830      0x200 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+ .bss           0xf03d2a30      0x206 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+                0xf03d2a30                CoreBtBit
+                0xf03d2a32                CoreBtSta
+                0xf03d2c34                cosbtsta
+ .bss           0xf03d2c36        0x1 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+                0xf03d2c36                BootInfo
+ *fill*         0xf03d2c37        0x1 00
+ .bss           0xf03d2c38      0x20c build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0xf03d2e38                xiaoshudian
+                0xf03d2e3c                LbsWeidu
+                0xf03d2e40                LbsJingdu
+ .bss           0xf03d2e44        0x8 build\gcc\obj/cloud/zyf_app/zyf_custom/lcd.o
+                0xf03d2e44                Signal
+                0xf03d2e48                SysVol
+ .bss           0xf03d2e4c      0x200 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+ .bss           0xf03d304c      0x20c build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+                0xf03d304c                CoreReDataBit
+                0xf03d3050                CoreEpoFunBit
+                0xf03d3052                CoreAbnormalBit
+                0xf03d3054                CREG_ERROR
+                0xf03d3255                GpsOrLbsBit
+                0xf03d3256                LbsInfoBit
+                0xf03d3257                M203CIsBusy
+ .bss           0xf03d3258      0x214 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0xf03d3458                sysadcvol
+                0xf03d345c                BattarySta
+                0xf03d345d                wzcurrtsta
+                0xf03d3460                jishit
+                0xf03d3464                jishis
+                0xf03d3468                LbsOpen
+                0xf03d3469                SystemFlow
+ .bss           0xf03d346c      0x201 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0xf03d366c                iSUartOrCenterRtc
+ *fill*         0xf03d366d        0x1 00
+ .bss           0xf03d366e      0x202 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0xf03d366e                tcent
+ .bss           0xf03d3870      0x200 build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+ .bss           0xf03d3a70      0x210 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0xf03d3a70                ProNum
+                0xf03d3a72                CurrtLen
+                0xf03d3c73                TlvIsBusy
+                0xf03d3c74                ProRtcSetBit
+                0xf03d3c78                Center2ModuleInfo
+                0xf03d3c7c                Center2ModuleLen
+ .bss           0xf03d3c80        0xc libs/gcc/app_start.lib(adc.o)
+                0xf03d3c80                m_ADC_Register
+                0xf03d3c84                m_ADC_Init
+                0xf03d3c88                m_ADC_Sampling
+ .bss           0xf03d3c8c       0x60 libs/gcc/app_start.lib(fileSys.o)
+ .bss           0xf03d3cec       0x14 libs/gcc/app_start.lib(fota.o)
+ .bss           0xf03d3d00       0x20 libs/gcc/app_start.lib(gpio.o)
+                0xf03d3d00                m_GPIO_Init
+                0xf03d3d04                m_GPIO_SetLevel
+                0xf03d3d08                m_GPIO_GetLevel
+                0xf03d3d0c                m_GPIO_SetDirection
+                0xf03d3d10                m_GPIO_GetDirection
+                0xf03d3d14                m_GPIO_SetPullSelection
+                0xf03d3d18                m_GPIO_GetPullSelection
+                0xf03d3d1c                m_GPIO_Uninit
+ .bss           0xf03d3d20       0x28 libs/gcc/app_start.lib(gprs.o)
+ .bss           0xf03d3d48       0x18 libs/gcc/app_start.lib(iic.o)
+                0xf03d3d48                m_IIC_Init
+                0xf03d3d4c                m_IIC_Config
+                0xf03d3d50                m_IIC_Write
+                0xf03d3d54                m_IIC_Read
+                0xf03d3d58                m_IIC_Write_Read
+                0xf03d3d5c                m_IIC_Uninit
+ .bss           0xf03d3d60        0x8 libs/gcc/app_start.lib(memory.o)
+ .bss           0xf03d3d68        0xc libs/gcc/app_start.lib(pwm.o)
+                0xf03d3d68                m_PWM_Init
+                0xf03d3d6c                m_PWM_Uninit
+                0xf03d3d70                m_PWM_Output
+ .bss           0xf03d3d74       0x24 libs/gcc/app_start.lib(ql_func.o)
+                0xf03d3d74                m_StartPlayAudioStream
+                0xf03d3d78                m_get_api_ptr
+                0xf03d3d7c                m_StopPlayAudioStream
+                0xf03d3d80                m_GetRelativeTime_Counter
+                0xf03d3d84                m_SecondToTicks
+                0xf03d3d88                m_MillisecondToTicks
+                0xf03d3d8c                m_CalendarTime2LocalTime
+                0xf03d3d90                m_osChangeTaskPriority
+                0xf03d3d94                m_create_api_hash
+ .bss           0xf03d3d98       0x10 libs/gcc/app_start.lib(ql_main.o)
+                0xf03d3d9c                runinfo
+ .bss           0xf03d3da8        0x1 libs/gcc/app_start.lib(ril_aux.o)
+                0xf03d3da8                g_ril_auxTaskReady
+ *fill*         0xf03d3da9        0x3 00
+ .bss           0xf03d3dac      0xc34 libs/gcc/app_start.lib(ril_main.o)
+ .bss           0xf03d49e0       0x40 libs/gcc/app_start.lib(stdlib_func.o)
+ .bss           0xf03d4a20       0x14 libs/gcc/app_start.lib(system.o)
+ .bss           0xf03d4a34       0x40 libs/gcc/app_start.lib(taskMngt.o)
+ .bss           0xf03d4a74       0x10 libs/gcc/app_start.lib(time.o)
+ .bss           0xf03d4a84       0x10 libs/gcc/app_start.lib(timer.o)
+ .bss           0xf03d4a94       0x3c libs/gcc/app_start.lib(uart.o)
+ *(COMMON)
+ COMMON         0xf03d4ad0      0x124 build\gcc\obj/ril/src/ril_telephony.o
+                0xf03d4ad0                g_comingCall
+ COMMON         0xf03d4bf4       0xc0 build\gcc\obj/custom/fota/src/fota_main.o
+                0xf03d4bf4                Fota_gprsCfg
+                0xf03d4ca4                FotaConfig
+ COMMON         0xf03d4cb4       0x84 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+                0xf03d4cb4                my_core_data
+                0xf03d4ce8                gpsx
+                0xf03d4d10                Wdbuf
+                0xf03d4d24                Jdbuf
+ COMMON         0xf03d4d38        0x8 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+                0xf03d4d38                NetworkTime
+                0xf03d4d3c                GpsPositioningTime
+ COMMON         0xf03d4d40      0x1f8 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+                0xf03d4d40                Position
+                0xf03d4d48                mycoredata
+                0xf03d4d78                Send_packets
+                0xf03d4d94                systemset
+                0xf03d4f2c                systimes
+ COMMON         0xf03d4f38       0x49 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+                0xf03d4f38                ostimebuf
+                0xf03d4f56                DataEnd
+                0xf03d4f5c                time
+                0xf03d4f78                DataStrat
+                0xf03d4f7b                calendar
+ *fill*         0xf03d4f81        0x3 00
+ COMMON         0xf03d4f84     0x1228 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+                0xf03d4f84                Angle
+                0xf03d4f90                AngularVelocity
+                0xf03d4f9c                Acceleration
+                0xf03d4fa8                fotainfo
+                0xf03d500c                g_asConSMSBuf
+                0xf03d61a8                Tem
+ COMMON         0xf03d61ac      0x2bb build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+                0xf03d61ac                PROBUF
+                0xf03d62ac                Pro
+                0xf03d62d0                ReCenterTlV
+                0xf03d62e8                Tetsbuf
+                0xf03d631a                CenterIDTlV
+                0xf03d6332                ProNumberInstruct
+                0xf03d642c                ProSeNum
+ *fill*         0xf03d6467        0x1 00
+ COMMON         0xf03d6468       0x14 libs/gcc/app_start.lib(ql_main.o)
+                0xf03d6468                Ql_snprintf
+                0xf03d646c                Ql_sprintf
+                0xf03d6470                Ql_Debug_Trace
+                0xf03d6474                Ql_vsprintf
+                0xf03d6478                Ql_sscanf
+                0xf03d6480                . = ALIGN (0x8)
+ *fill*         0xf03d647c        0x4 00
+                0xf03d6480                PROVIDE (__bss_end__, .)
+LOAD build\gcc\obj/custom/config/custom_sys_cfg.o
+LOAD build\gcc\obj/custom/config/sys_config.o
+LOAD build\gcc\obj/ril/src/ril_alarm.o
+LOAD build\gcc\obj/ril/src/ril_atResponse.o
+LOAD build\gcc\obj/ril/src/ril_audio.o
+LOAD build\gcc\obj/ril/src/ril_ble.o
+LOAD build\gcc\obj/ril/src/ril_bluetooth.o
+LOAD build\gcc\obj/ril/src/ril_custom.o
+LOAD build\gcc\obj/ril/src/Ril_dtmf.o
+LOAD build\gcc\obj/ril/src/ril_ftp.o
+LOAD build\gcc\obj/ril/src/ril_gps.o
+LOAD build\gcc\obj/ril/src/ril_http.o
+LOAD build\gcc\obj/ril/src/ril_init.o
+LOAD build\gcc\obj/ril/src/ril_location.o
+LOAD build\gcc\obj/ril/src/ril_network.o
+LOAD build\gcc\obj/ril/src/ril_ntp.o
+LOAD build\gcc\obj/ril/src/ril_sim.o
+LOAD build\gcc\obj/ril/src/ril_sms.o
+LOAD build\gcc\obj/ril/src/ril_system.o
+LOAD build\gcc\obj/ril/src/ril_telephony.o
+LOAD build\gcc\obj/ril/src/ril_urc.o
+LOAD build\gcc\obj/ril/src/ril_util.o
+LOAD build\gcc\obj/example/example_adc.o
+LOAD build\gcc\obj/example/example_alarm.o
+LOAD build\gcc\obj/example/example_audio.o
+LOAD build\gcc\obj/example/example_ble.o
+LOAD build\gcc\obj/example/example_blescan.o
+LOAD build\gcc\obj/example/example_bluetooth.o
+LOAD build\gcc\obj/example/example_call.o
+LOAD build\gcc\obj/example/example_clk.o
+LOAD build\gcc\obj/example/example_csd.o
+LOAD build\gcc\obj/example/example_download_epo.o
+LOAD build\gcc\obj/example/example_dtmf.o
+LOAD build\gcc\obj/example/example_eint.o
+LOAD build\gcc\obj/example/example_file.o
+LOAD build\gcc\obj/example/example_float_math.o
+LOAD build\gcc\obj/example/example_fota_ftp.o
+LOAD build\gcc\obj/example/example_fota_http.o
+LOAD build\gcc\obj/example/example_ftp.o
+LOAD build\gcc\obj/example/example_gpio.o
+LOAD build\gcc\obj/example/example_gps.o
+LOAD build\gcc\obj/example/Example_gps_iic.o
+LOAD build\gcc\obj/example/example_http.o
+LOAD build\gcc\obj/example/example_iic.o
+LOAD build\gcc\obj/example/example_location.o
+LOAD build\gcc\obj/example/example_memory.o
+LOAD build\gcc\obj/example/example_mpu6050.o
+LOAD build\gcc\obj/example/example_multitask.o
+LOAD build\gcc\obj/example/example_multitask_port.o
+LOAD build\gcc\obj/example/example_pwm.o
+LOAD build\gcc\obj/example/example_sms.o
+LOAD build\gcc\obj/example/example_spi.o
+LOAD build\gcc\obj/example/example_system.o
+LOAD build\gcc\obj/example/example_tcp_demo.o
+LOAD build\gcc\obj/example/example_tcpclient.o
+LOAD build\gcc\obj/example/example_tcpserver.o
+LOAD build\gcc\obj/example/example_time.o
+LOAD build\gcc\obj/example/example_timer.o
+LOAD build\gcc\obj/example/example_transpass.o
+LOAD build\gcc\obj/example/example_udpclient.o
+LOAD build\gcc\obj/example/example_udpserver.o
+LOAD build\gcc\obj/example/example_watchdog.o
+LOAD build\gcc\obj/example/nema_pro.o
+LOAD build\gcc\obj/example/utility.o
+LOAD build\gcc\obj/custom/fota/src/fota_ftp.o
+LOAD build\gcc\obj/custom/fota/src/fota_http.o
+LOAD build\gcc\obj/custom/fota/src/fota_http_code.o
+LOAD build\gcc\obj/custom/fota/src/fota_main.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_config/PRD.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/lcd.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/mpu6050.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/tt.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+LOAD build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+LOAD libs/gcc/app_start.lib
+LOAD E:\LiteforArm/arm-none-eabi/lib/thumb/libm.a
+LOAD E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a
+LOAD E:\LiteforArm/arm-none-eabi/lib/thumb/libcs3.a
+LOAD E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a
+OUTPUT(build\gcc/APPGS3MDM32A01.elf elf32-littlearm)
+
+.comment        0x00000000       0x60
+ .comment       0x00000000       0x30 build\gcc\obj/custom/config/custom_sys_cfg.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 build\gcc\obj/custom/config/sys_config.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_atResponse.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_audio.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_ble.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_bluetooth.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_custom.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/Ril_dtmf.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_ftp.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_gps.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_http.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_init.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_location.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_network.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_ntp.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_sim.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_telephony.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_urc.o
+ .comment       0x00000000       0x31 build\gcc\obj/ril/src/ril_util.o
+ .comment       0x00000000       0x31 build\gcc\obj/custom/fota/src/fota_ftp.o
+ .comment       0x00000000       0x31 build\gcc\obj/custom/fota/src/fota_main.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_config/PRD.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/lcd.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+ .comment       0x00000000       0x31 build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .comment       0x00000030       0x30 libs/gcc/app_start.lib(adc.o)
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(fileSys.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(fota.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(gpio.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(gprs.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(iic.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(memory.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(pwm.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(ql_func.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(ql_main.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(ril_aux.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(ril_main.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(stdlib_func.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(system.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(taskMngt.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(time.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(timer.o)
+ .comment       0x00000000       0x31 libs/gcc/app_start.lib(uart.o)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x2d build\gcc\obj/custom/config/custom_sys_cfg.o
+ .ARM.attributes
+                0x0000002d       0x2d build\gcc\obj/custom/config/sys_config.o
+ .ARM.attributes
+                0x0000005a       0x2d build\gcc\obj/ril/src/ril_atResponse.o
+ .ARM.attributes
+                0x00000087       0x2d build\gcc\obj/ril/src/ril_audio.o
+ .ARM.attributes
+                0x000000b4       0x2d build\gcc\obj/ril/src/ril_ble.o
+ .ARM.attributes
+                0x000000e1       0x2d build\gcc\obj/ril/src/ril_bluetooth.o
+ .ARM.attributes
+                0x0000010e       0x2d build\gcc\obj/ril/src/ril_custom.o
+ .ARM.attributes
+                0x0000013b       0x2d build\gcc\obj/ril/src/Ril_dtmf.o
+ .ARM.attributes
+                0x00000168       0x2d build\gcc\obj/ril/src/ril_ftp.o
+ .ARM.attributes
+                0x00000195       0x2d build\gcc\obj/ril/src/ril_gps.o
+ .ARM.attributes
+                0x000001c2       0x2d build\gcc\obj/ril/src/ril_http.o
+ .ARM.attributes
+                0x000001ef       0x2d build\gcc\obj/ril/src/ril_init.o
+ .ARM.attributes
+                0x0000021c       0x2d build\gcc\obj/ril/src/ril_location.o
+ .ARM.attributes
+                0x00000249       0x2d build\gcc\obj/ril/src/ril_network.o
+ .ARM.attributes
+                0x00000276       0x2d build\gcc\obj/ril/src/ril_ntp.o
+ .ARM.attributes
+                0x000002a3       0x2d build\gcc\obj/ril/src/ril_sim.o
+ .ARM.attributes
+                0x000002d0       0x2d build\gcc\obj/ril/src/ril_telephony.o
+ .ARM.attributes
+                0x000002fd       0x2d build\gcc\obj/ril/src/ril_urc.o
+ .ARM.attributes
+                0x0000032a       0x2d build\gcc\obj/ril/src/ril_util.o
+ .ARM.attributes
+                0x00000357       0x2d build\gcc\obj/custom/fota/src/fota_ftp.o
+ .ARM.attributes
+                0x00000384       0x2d build\gcc\obj/custom/fota/src/fota_main.o
+ .ARM.attributes
+                0x000003b1       0x2d build\gcc\obj/cloud/zyf_app/zyf_config/PRD.o
+ .ARM.attributes
+                0x000003de       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/bma22x.o
+ .ARM.attributes
+                0x0000040b       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/bt3.o
+ .ARM.attributes
+                0x00000438       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/flash.o
+ .ARM.attributes
+                0x00000465       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/gps.o
+ .ARM.attributes
+                0x00000492       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/lcd.o
+ .ARM.attributes
+                0x000004bf       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/main.o
+ .ARM.attributes
+                0x000004ec       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/new_socket.o
+ .ARM.attributes
+                0x00000519       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/sys.o
+ .ARM.attributes
+                0x00000546       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/tiem.o
+ .ARM.attributes
+                0x00000573       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/uart.o
+ .ARM.attributes
+                0x000005a0       0x2d build\gcc\obj/cloud/zyf_app/zyf_custom/user_data.o
+ .ARM.attributes
+                0x000005cd       0x2d build\gcc\obj/cloud/zyf_app/zyf_protocol/pro.o
+ .ARM.attributes
+                0x000005fa       0x2b libs/gcc/app_start.lib(adc.o)
+ .ARM.attributes
+                0x00000625       0x2b libs/gcc/app_start.lib(fileSys.o)
+ .ARM.attributes
+                0x00000650       0x2b libs/gcc/app_start.lib(fota.o)
+ .ARM.attributes
+                0x0000067b       0x2b libs/gcc/app_start.lib(gpio.o)
+ .ARM.attributes
+                0x000006a6       0x2b libs/gcc/app_start.lib(gprs.o)
+ .ARM.attributes
+                0x000006d1       0x2b libs/gcc/app_start.lib(iic.o)
+ .ARM.attributes
+                0x000006fc       0x2b libs/gcc/app_start.lib(memory.o)
+ .ARM.attributes
+                0x00000727       0x2b libs/gcc/app_start.lib(pwm.o)
+ .ARM.attributes
+                0x00000752       0x2b libs/gcc/app_start.lib(ql_func.o)
+ .ARM.attributes
+                0x0000077d       0x2b libs/gcc/app_start.lib(ql_main.o)
+ .ARM.attributes
+                0x000007a8       0x2b libs/gcc/app_start.lib(ril_aux.o)
+ .ARM.attributes
+                0x000007d3       0x2b libs/gcc/app_start.lib(ril_main.o)
+ .ARM.attributes
+                0x000007fe       0x2b libs/gcc/app_start.lib(stdlib_func.o)
+ .ARM.attributes
+                0x00000829       0x2b libs/gcc/app_start.lib(system.o)
+ .ARM.attributes
+                0x00000854       0x2b libs/gcc/app_start.lib(taskMngt.o)
+ .ARM.attributes
+                0x0000087f       0x2b libs/gcc/app_start.lib(time.o)
+ .ARM.attributes
+                0x000008aa       0x2b libs/gcc/app_start.lib(timer.o)
+ .ARM.attributes
+                0x000008d5       0x2b libs/gcc/app_start.lib(uart.o)
+ .ARM.attributes
+                0x00000900       0x1d libs/gcc/app_start.lib(ocpu_init.o)
+ .ARM.attributes
+                0x0000091d       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000094f       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000981       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x000009b3       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x000009e5       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000a17       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o)
+ .ARM.attributes
+                0x00000a49       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x00000a7b       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000aad       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000adf       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000b11       0x32 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000b43       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000b5d       0x18 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000b75       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000b8f       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000ba9       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000bc3       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000bdd       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000bf7       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000c11       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000c2b       0x1a E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_arm_fixunssfsi.o)
+
+.debug_frame    0x00000000      0x23c
+ .debug_frame   0x00000000       0x38 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000038       0x2c E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000064       0x30 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strchr.o)
+ .debug_frame   0x00000094       0x20 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strcpy.o)
+ .debug_frame   0x000000b4       0x20 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .debug_frame   0x000000d4       0x94 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strstr.o)
+ .debug_frame   0x00000168       0x58 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-strtol.o)
+ .debug_frame   0x000001c0       0x30 E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memchr.o)
+ .debug_frame   0x000001f0       0x2c E:\LiteforArm/arm-none-eabi/lib/thumb/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000021c       0x20 E:\LiteforArm/lib/gcc/arm-none-eabi/4.6.1/thumb/libgcc.a(_udivsi3.o)

@@ -1,0 +1,6 @@
+CatcherTran::MtkCommIOInit()...
+[commModule][MtkCommIOLog]E:\WZ203CS\203CS开发板发布资料\开发工具\QFlash_V4.0\\MtkCommIODLL.dll
+[commModule][MtkCommIOLog]Load MtkCommIO Library Failed...
+[CatcherTran][MtkCommIOLog]MtkCommIODll_Init Failed.
+[commModule][MtkCommIOLog]Rs232Module::Internal_Start().......m_port = 5, baud = 115200
+[commModule][MtkCommIOLog]Rs232Module::Internal_Start().......hCOM = 0x1300

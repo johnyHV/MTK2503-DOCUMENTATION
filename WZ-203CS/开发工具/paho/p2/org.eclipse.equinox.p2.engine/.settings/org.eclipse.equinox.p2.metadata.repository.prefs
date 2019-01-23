@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/description=
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/enabled=true
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/isSystem=false
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/name=module-metadata-repository@/jobs/genie.paho/paho-java-master-release/workspace/org.eclipse.paho.ui/org.eclipse.paho.ui.app/target
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/provider=
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/suffix=p2content.xml
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/type=org.eclipse.tycho.repository.module.ModuleMetadataRepository
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/uri=file\:/jobs/genie.paho/paho-java-master-release/workspace/org.eclipse.paho.ui/org.eclipse.paho.ui.app/target/
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target/version=1.0.0
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target_targetPlatformRepository/enabled=true
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target_targetPlatformRepository/isSystem=false
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target_targetPlatformRepository/name=TychoTargetPlatform
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target_targetPlatformRepository/suffix=content.xml
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target_targetPlatformRepository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target_targetPlatformRepository/uri=file\:/jobs/genie.paho/paho-java-master-release/workspace/org.eclipse.paho.ui/org.eclipse.paho.ui.app/target/targetPlatformRepository/
+repositories/file\:_jobs_genie.paho_paho-java-master-release_workspace_org.eclipse.paho.ui_org.eclipse.paho.ui.app_target_targetPlatformRepository/version=0.0.1

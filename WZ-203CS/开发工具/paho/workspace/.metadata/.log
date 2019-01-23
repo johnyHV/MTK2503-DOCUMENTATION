@@ -1,0 +1,99 @@
+!SESSION 2018-01-24 15:14:52.295 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-01-25 12:46:17.490
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:363)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:558)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.updateTabImages(CompatibilityPart.java:381)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.updateImages(CompatibilityEditor.java:141)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart$4.propertyChanged(CompatibilityPart.java:347)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:129)
+	at org.eclipse.ui.part.WorkbenchPart.setTitle(WorkbenchPart.java:311)
+	at org.eclipse.ui.part.EditorPart.setDefaultTitle(EditorPart.java:294)
+	at org.eclipse.ui.part.WorkbenchPart.setPartName(WorkbenchPart.java:390)
+	at org.eclipse.ui.part.EditorPart.setPartName(EditorPart.java:268)
+	at org.eclipse.paho.mqtt.ui.views.ConnectionEditorPart.access$0(ConnectionEditorPart.java:1)
+	at org.eclipse.paho.mqtt.ui.views.ConnectionEditorPart$1.handleEvent(ConnectionEditorPart.java:77)
+	at org.eclipse.paho.mqtt.ui.core.event.internal.EventService$EventHandlerAdaptor.handleEvent(EventService.java:99)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SESSION 2018-01-26 10:38:10.822 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-01-26 10:39:44.324
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:363)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:558)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.updateTabImages(CompatibilityPart.java:381)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.updateImages(CompatibilityEditor.java:141)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart$4.propertyChanged(CompatibilityPart.java:347)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:129)
+	at org.eclipse.ui.part.WorkbenchPart.setTitle(WorkbenchPart.java:311)
+	at org.eclipse.ui.part.EditorPart.setDefaultTitle(EditorPart.java:294)
+	at org.eclipse.ui.part.WorkbenchPart.setPartName(WorkbenchPart.java:390)
+	at org.eclipse.ui.part.EditorPart.setPartName(EditorPart.java:268)
+	at org.eclipse.paho.mqtt.ui.views.ConnectionEditorPart.access$0(ConnectionEditorPart.java:1)
+	at org.eclipse.paho.mqtt.ui.views.ConnectionEditorPart$1.handleEvent(ConnectionEditorPart.java:77)
+	at org.eclipse.paho.mqtt.ui.core.event.internal.EventService$EventHandlerAdaptor.handleEvent(EventService.java:99)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SESSION 2018-04-17 18:42:30.968 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-04-17 18:42:41.470
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:363)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:558)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.updateTabImages(CompatibilityPart.java:381)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.updateImages(CompatibilityEditor.java:141)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart$4.propertyChanged(CompatibilityPart.java:347)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:129)
+	at org.eclipse.ui.part.WorkbenchPart.setTitle(WorkbenchPart.java:311)
+	at org.eclipse.ui.part.EditorPart.setDefaultTitle(EditorPart.java:294)
+	at org.eclipse.ui.part.WorkbenchPart.setPartName(WorkbenchPart.java:390)
+	at org.eclipse.ui.part.EditorPart.setPartName(EditorPart.java:268)
+	at org.eclipse.paho.mqtt.ui.views.ConnectionEditorPart.access$0(ConnectionEditorPart.java:1)
+	at org.eclipse.paho.mqtt.ui.views.ConnectionEditorPart$1.handleEvent(ConnectionEditorPart.java:77)
+	at org.eclipse.paho.mqtt.ui.core.event.internal.EventService$EventHandlerAdaptor.handleEvent(EventService.java:99)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
