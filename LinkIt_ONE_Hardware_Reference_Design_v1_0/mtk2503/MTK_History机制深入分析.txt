@@ -1,0 +1,164 @@
+MTK History机制深入分析
+
+
+
+MTK History机制深入分析
+
+
+
+
+
+
+1．10A的屏幕架构
+
+
+
+
+
+10A中的屏幕管理，不再像以前那样简单的管理一个数组，出栈入栈，而是维护一个树，如下图：-
+[attachment=19771]
+
+
+
+
+这个是总的屏幕集合的一部分，基本上是主菜单一个应用有自己的一个总的group（也不排除特殊情况，比如设置菜单），在这个group下有许多子group（就好像一个菜单中有很多子菜单），子group中又会有用来显示的screen以及其它的group，依次类推，不过最底部（叶子节点）一定会是个screen，用作显示。
+
+以前的EntryNewScreen是一个入栈的过程，现在的进入新屏，就需要创建新的group连接到已有的父group的子group中的尾部，然后再以新建的group为父节点创建screen用作显示，当然这其中也会处理前一个group，也就是保存历史的操作。
+
+进屏之后返屏，可以想象返屏就会移除父group的子group中的tail的group并释放在其申请的内存，接着激活其前一个节点（可能是group，可能是screen），tail的group就会是激活的节点。
+
+具体的进\出屏幕会在下文详细介绍。
+
+
+
+
+2．进屏流程
+
+
+
+
+
+由于10A中也会用到原来的EntryNewScreen进屏，也会有直接创建screen进屏等多种方式进屏，我在这就只列出一个比较具有象征性的进屏方式。因为现在进屏比较复杂我就大体例举其调用的主要的几个函数以及他的作用。
+
+1）mmi_frm_group_create (MMI_ID parent_id, MMI_ID group_id, mmi_proc_func proc, void *user_data)，看到这个我想都会知道是创建一个group，它的父ID，ID等系列属性也会根据参数来赋值，值得一提的是group是动态申请内存的方式创建，还有在创建的时候，不会把新节点加到父节点的子节点的尾部。而是先加到shell.scenario_dangle这个节点下。
+
+2）创建好group后，就会进入group，mmi_frm_group_enter (MMI_ID group_id, mmi_group_enter_flag flag)进入新的group，注意在这里他又会调用add_node这个函数把group加入到他的父级group下，加到尾部，同时会用remove_node()这个函数来remove掉shell.scenario_dangle下对应节点，（有点没懂为什么在新建的时候会add到shell.scenario_dangle这个节点后，又在紧跟着的entry group中remove掉这个节点，是为了防止在第一次creategroup之后没有调用entry gourp么？期待高手解答）这步就是加链表的操作了。
+
+
+
+3）接着就是用这个函数group_active(group_node_struct *node, mmi_scenario_evt_struct* evt)，这个函数会对该node的父级group做判断：
+
+只有在父级group为shell.scenario_root，才会调用mmi_frm_entry_new_screen()，这个又是我们熟知的进屏函数了，我不再这一一介绍，只说一些不同的操作，他不单利用historyData这个结构体来保存上一个屏幕的信息，也会记录新进的屏幕的信息，还有在记录上一个屏幕信息的时候不再用mmi_frm_add_history这个函数来申请内存保存上一个屏幕控件的历史信息。
+
+接着会inactive其前一个节点。调用group_inactive或者scrn_inactive。
+
+
+
+4）group_inactive会调用scrn_inactive来inactive其节点下的（包括本身节点）节点。那么得分析下scrn_inactive，这里会调用该node所记录的退出函数，根据进入函数来调用scrn_add_history(scrn_node_struct *node)来保存历史，这个改良了53的保存控件历史的函数，它统一了各个所有控件的保存方式，不再是像以前那样对特殊模板独立保存方式。这里同样会申请内存来保存控件信息，不过它会根据控件的size大小来申请内存，而且都是保存在node这个结构体中，同样也可以在退出函数中作保存历史的操作。
+
+
+
+5）以上几步是把上个屏幕的信息保存下来了，现在要做的是对新的group的操作了。现在要做的就是对新group的操作。这个就要关注下post_scenario_evt(MMI_ID group_id, U32 scrn_id, post_scenario_act_enum act, mmi_scenario_evt_struct *evt, U32 type)这个函数会把参数中的写到post_queue这个结构体队列中，然后调用scenario_process_post_evt_ex(U32 type)来读取队列执行相应写入的操作，比如激活新group就会调用group_post_active(group_node_struct *node, mmi_scenario_evt_struct* evt)这个函数用shell.active_group来记录进入的新node。shell.active_scrn为NULL。
+
+
+
+6）仅仅只有好像只是group的操作，那么screen的操作去哪了呢？现在就是开始screen的步骤了，和group一样也会新建screen，同样也是申请内存，把screen加到新的group下，调用scrn_active激活screen，用shell.active_scrn记录新的screen。这里主要还是介绍下两种进屏幕的方式mmi_frm_scrn_first_enter和mmi_frm_scrn_enter，这两者的区别就在于前者可以应用显示函数中应用参数（一般都是节点结构体中记录的数据）还有tab页的进入调用mmi_frm_scrn_tab_enter，和scrn一样最终页调用scrn_node_enter，具体流程类似。(可以看一下mmi_phb_entry_op_option)
+
+具体流程入下图所示（这只是一个比较标准的进屏，10A中也有直接申请Sreen进的，还有用原始的进屏方式等等
+
+
+3．返回屏幕
+
+
+
+
+
+1）mmi_frm_group_close_ex (MMI_ID group_id, U32 type)中会调用group_close，而该函数会先关闭该节点的孩子节点，也就是screen节点，而scrn_close()会scrn_inactive()screen节点后，在调用execute_node_deinit(base_node_struct *node, mmi_scenario_evt_struct* evt)把POST_EXECUTE_DEINIT的操作写进队列中，接着调用scenario_process_post_evt_ex读取队列中的操作执行execute_node_post_deinit来释放screen申请的内存。这么一来原有的screen就不在了，对于group来说也会做类似的操作，同样是先inactive，再exit，最后deinit都会把操作写进队列，这样一来就结束了显示着的界面。
+
+2）现在就是要看怎么实现返回的了，其实简单来说就是激活了被释放节点的前一个节点，如果该节点是group会激活该group下的screen，如果是screen就直接激活screen，调用screen节点所记录下的entry函数，实现了返回的效果。注意，在被释放节点的父节点为shell.scenario_root时，在返回时会调用GobackHistory，来返回历史。这个是我们熟知的方法，也就不在这一一介绍了。
+
+具体流程如下图所示：
+
+[attachment=19772]
+
+
+4．删除屏幕
+
+
+
+
+
+其实删屏在返回屏幕中已经介绍了他的具体流程，这里就简单介绍些常用的几个删屏函数吧：
+
+1）mmi_frm_group_close (MMI_ID group_id)：删除相应ID的group，删除group会连带删除该group下的所有子节点。
+
+2）mmi_frm_scrn_close_active_id()顾名思义会删除激活状态下的screen
+
+3）mmi_frm_scrn_close_ex (MMI_ID parent_id, MMI_ID scrn_id, scrn_close_type_enum flag)删除指定ID的screen。
+
+4）mmi_frm_scrn_multiple_close (MMI_ID parent_id, MMI_ID start_scrn_id, U8 b_inc_start, U16 count, MMI_ID end_scrn_id, U8 b_inc_end)这个类似53平台上的DeleteHistoryInt()，用来删除多个屏幕。
+
+注意：如果被删的节点的父节点，只有一个子节点（也就是被删的节点），那么同样会删除该节点的父节点。
+
+
+
+
+5．插入节点
+
+
+
+
+
+1）mmi_frm_group_insert (MMI_ID parent_id, MMI_ID base_id, mmi_frm_node_struct *new_node_info, mmi_scenario_node_flag flag)
+
+2）mmi_frm_scrn_insert (MMI_ID parent_id, MMI_ID base_id, mmi_frm_node_struct *new_node_info, mmi_scenario_node_flag flag)
+
+两者都会根据传入的flag参数确定加入的位置，加节点的流程与进屏加节点类似，只是位置不同，不再分析流程。
+
+
+
+
+6．一些函数介绍
+
+
+
+
+
+1．mmi_frm_get_active_scrn_id(MMI_ID *group_id, MMI_ID *scrn_id)获取激活的group和screen的ID
+
+2．mmi_frm_group_get_active_id(void)
+
+3．mmi_frm_scrn_get_active_id（void）和以前类似，对tab页也是获取主屏ID
+
+4．mmi_frm_scrn_tab_get_active_id(void)这个函数是获取tab页主屏的ID
+
+5．mmi_frm_scrn_tab_page_get_active_id(void)获取激活的page页ID（也就是子屏ID）
+
+6．mmi_frm_scrn_get_active_gui_buf (void)这个函数封装了所有screen的历史获取，包括tab页。
+
+7．mmi_frm_scrn_set_leave_proc (MMI_ID parent_id, MMI_ID scrn_id, mmi_proc_func proc)设置删屏响应函数
+
+
+7．总结
+
+
+
+
+
+由上可知10A的屏幕管理要比以前的复杂的多，上面所分析的也是一种常见的屏幕架构，也会有比较特殊的，会直接用以前的EntryNewScreen，也会有一个group下游很多screen子节点，可是万变不离其中，都是根据节点的增删，维护一个树，来实现屏幕的切换。
+
+还有些tab页的进屏没有详细分析，不过也是类似节点的管理，不再一一介绍，可以根据代码了解过程。主要是进一个主屏，这个主屏链接着树，管理其顺序，然后主屏下有相应的page页，激活着的page页在这个主屏的尾部，在返回时只对主屏进行操作，不过在操作中会操作它的子节点。
+
+注意：
+
+在10A中也可以用EntryNewScreen，不过有几点限制：
+
+1．如果前后都是EntryNewScreen，可以。
+
+2．如果前面是节点，那么该节点的父节点必须为shell.scenario_root
+
+3．如果后面是节点，那么该节点的父节点必须为shell.scenario_root
+
+终上所述，也就是说EntryNewScreen进的screen可以理解为shell.scenario_root这个节点的子节点。
+
+以上就是我的收获了，希望有帮助，谢谢。
